@@ -6,40 +6,126 @@ Valid keys in each object include `"URL"`, `"DOI"` (see
 `"Version"` with
 [string](https://www.w3schools.com/js/js_json_datatypes.asp)
 values.
-
+ - rules.dataset_metadata.dataset_description
 
 	Please visit https://neurostars.org/search?q=JSON_KEY_RECOMMENDED for existing conversations about this issue.
 
 	[WARNING] TSV_COLUMN_TYPE_REDEFINED A column required in a TSV file has been redefined in a sidecar file. This redefinition is being ignored.
 		x
-		/sub-FF/ses-FF+103/ecephys/sub-FF_ses-FF+103_electrodes.json - Format "string" must be number
-		/sub-FF/ses-FF+130/ecephys/sub-FF_ses-FF+130_electrodes.json - Format "string" must be number
-
-		26 more files with the same issue
+		/sub-FF/ses-FF+103/ecephys/sub-FF_ses-FF+103_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-FF/ses-FF+130/ecephys/sub-FF_ses-FF+130_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-FF/ses-FF+167/ecephys/sub-FF_ses-FF+167_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+045/ecephys/sub-EE_ses-EE+045_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+196/ecephys/sub-EE_ses-EE+196_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+082/ecephys/sub-EE_ses-EE+082_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+044/ecephys/sub-EE_ses-EE+044_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+042/ecephys/sub-EE_ses-EE+042_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+049/ecephys/sub-EE_ses-EE+049_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+210/ecephys/sub-EE_ses-EE+210_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+043/ecephys/sub-EE_ses-EE+043_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+088/ecephys/sub-EE_ses-EE+088_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+081/ecephys/sub-EE_ses-EE+081_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+086/ecephys/sub-EE_ses-EE+086_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+085/ecephys/sub-EE_ses-EE+085_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+047/ecephys/sub-EE_ses-EE+047_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+046/ecephys/sub-EE_ses-EE+046_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+089/ecephys/sub-EE_ses-EE+089_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+083/ecephys/sub-EE_ses-EE+083_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+050/ecephys/sub-EE_ses-EE+050_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+087/ecephys/sub-EE_ses-EE+087_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+048/ecephys/sub-EE_ses-EE+048_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+084/ecephys/sub-EE_ses-EE+084_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+080/ecephys/sub-EE_ses-EE+080_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-GG/ses-GG+097/ecephys/sub-GG_ses-GG+097_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-GG/ses-GG+069/ecephys/sub-GG_ses-GG+069_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-GG/ses-GG+063/ecephys/sub-GG_ses-GG+063_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-GG/ses-GG+149/ecephys/sub-GG_ses-GG+149_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
 
 		y
-		/sub-FF/ses-FF+103/ecephys/sub-FF_ses-FF+103_electrodes.json - Format "string" must be number
-		/sub-FF/ses-FF+130/ecephys/sub-FF_ses-FF+130_electrodes.json - Format "string" must be number
-
-		26 more files with the same issue
+		/sub-FF/ses-FF+103/ecephys/sub-FF_ses-FF+103_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-FF/ses-FF+130/ecephys/sub-FF_ses-FF+130_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-FF/ses-FF+167/ecephys/sub-FF_ses-FF+167_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+045/ecephys/sub-EE_ses-EE+045_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+196/ecephys/sub-EE_ses-EE+196_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+082/ecephys/sub-EE_ses-EE+082_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+044/ecephys/sub-EE_ses-EE+044_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+042/ecephys/sub-EE_ses-EE+042_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+049/ecephys/sub-EE_ses-EE+049_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+210/ecephys/sub-EE_ses-EE+210_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+043/ecephys/sub-EE_ses-EE+043_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+088/ecephys/sub-EE_ses-EE+088_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+081/ecephys/sub-EE_ses-EE+081_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+086/ecephys/sub-EE_ses-EE+086_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+085/ecephys/sub-EE_ses-EE+085_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+047/ecephys/sub-EE_ses-EE+047_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+046/ecephys/sub-EE_ses-EE+046_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+089/ecephys/sub-EE_ses-EE+089_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+083/ecephys/sub-EE_ses-EE+083_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+050/ecephys/sub-EE_ses-EE+050_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+087/ecephys/sub-EE_ses-EE+087_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+048/ecephys/sub-EE_ses-EE+048_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+084/ecephys/sub-EE_ses-EE+084_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+080/ecephys/sub-EE_ses-EE+080_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-GG/ses-GG+097/ecephys/sub-GG_ses-GG+097_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-GG/ses-GG+069/ecephys/sub-GG_ses-GG+069_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-GG/ses-GG+063/ecephys/sub-GG_ses-GG+063_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-GG/ses-GG+149/ecephys/sub-GG_ses-GG+149_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
 
 		impedance
-		/sub-FF/ses-FF+103/ecephys/sub-FF_ses-FF+103_electrodes.json - Format "string" must be number
-		/sub-FF/ses-FF+130/ecephys/sub-FF_ses-FF+130_electrodes.json - Format "string" must be number
-
-		26 more files with the same issue
+		/sub-FF/ses-FF+103/ecephys/sub-FF_ses-FF+103_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-FF/ses-FF+130/ecephys/sub-FF_ses-FF+130_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-FF/ses-FF+167/ecephys/sub-FF_ses-FF+167_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+045/ecephys/sub-EE_ses-EE+045_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+196/ecephys/sub-EE_ses-EE+196_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+082/ecephys/sub-EE_ses-EE+082_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+044/ecephys/sub-EE_ses-EE+044_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+042/ecephys/sub-EE_ses-EE+042_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+049/ecephys/sub-EE_ses-EE+049_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+210/ecephys/sub-EE_ses-EE+210_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+043/ecephys/sub-EE_ses-EE+043_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+088/ecephys/sub-EE_ses-EE+088_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+081/ecephys/sub-EE_ses-EE+081_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+086/ecephys/sub-EE_ses-EE+086_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+085/ecephys/sub-EE_ses-EE+085_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+047/ecephys/sub-EE_ses-EE+047_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+046/ecephys/sub-EE_ses-EE+046_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+089/ecephys/sub-EE_ses-EE+089_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+083/ecephys/sub-EE_ses-EE+083_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+050/ecephys/sub-EE_ses-EE+050_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+087/ecephys/sub-EE_ses-EE+087_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+048/ecephys/sub-EE_ses-EE+048_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+084/ecephys/sub-EE_ses-EE+084_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-EE/ses-EE+080/ecephys/sub-EE_ses-EE+080_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-GG/ses-GG+097/ecephys/sub-GG_ses-GG+097_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-GG/ses-GG+069/ecephys/sub-GG_ses-GG+069_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-GG/ses-GG+063/ecephys/sub-GG_ses-GG+063_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
+		/sub-GG/ses-GG+149/ecephys/sub-GG_ses-GG+149_electrodes.json - Format "string" must be number - rules.tabular_data.microephys.microephysElectrodes
 
 		sampling_frequency
-		/sub-EE/ses-EE+082/ecephys/sub-EE_ses-EE+082_channels.json - Format "string" must be number
-		/sub-EE/ses-EE+042/ecephys/sub-EE_ses-EE+042_channels.json - Format "string" must be number
-
-		9 more files with the same issue
+		/sub-EE/ses-EE+082/ecephys/sub-EE_ses-EE+082_channels.json - Format "string" must be number - rules.tabular_data.microephys.microephysChannels
+		/sub-EE/ses-EE+042/ecephys/sub-EE_ses-EE+042_channels.json - Format "string" must be number - rules.tabular_data.microephys.microephysChannels
+		/sub-EE/ses-EE+088/ecephys/sub-EE_ses-EE+088_channels.json - Format "string" must be number - rules.tabular_data.microephys.microephysChannels
+		/sub-EE/ses-EE+081/ecephys/sub-EE_ses-EE+081_channels.json - Format "string" must be number - rules.tabular_data.microephys.microephysChannels
+		/sub-EE/ses-EE+086/ecephys/sub-EE_ses-EE+086_channels.json - Format "string" must be number - rules.tabular_data.microephys.microephysChannels
+		/sub-EE/ses-EE+085/ecephys/sub-EE_ses-EE+085_channels.json - Format "string" must be number - rules.tabular_data.microephys.microephysChannels
+		/sub-EE/ses-EE+089/ecephys/sub-EE_ses-EE+089_channels.json - Format "string" must be number - rules.tabular_data.microephys.microephysChannels
+		/sub-EE/ses-EE+083/ecephys/sub-EE_ses-EE+083_channels.json - Format "string" must be number - rules.tabular_data.microephys.microephysChannels
+		/sub-EE/ses-EE+087/ecephys/sub-EE_ses-EE+087_channels.json - Format "string" must be number - rules.tabular_data.microephys.microephysChannels
+		/sub-EE/ses-EE+084/ecephys/sub-EE_ses-EE+084_channels.json - Format "string" must be number - rules.tabular_data.microephys.microephysChannels
+		/sub-EE/ses-EE+080/ecephys/sub-EE_ses-EE+080_channels.json - Format "string" must be number - rules.tabular_data.microephys.microephysChannels
 
 		gain
-		/sub-EE/ses-EE+082/ecephys/sub-EE_ses-EE+082_channels.json - Format "string" must be number
-		/sub-EE/ses-EE+042/ecephys/sub-EE_ses-EE+042_channels.json - Format "string" must be number
-
-		9 more files with the same issue
+		/sub-EE/ses-EE+082/ecephys/sub-EE_ses-EE+082_channels.json - Format "string" must be number - rules.tabular_data.microephys.microephysChannels
+		/sub-EE/ses-EE+042/ecephys/sub-EE_ses-EE+042_channels.json - Format "string" must be number - rules.tabular_data.microephys.microephysChannels
+		/sub-EE/ses-EE+088/ecephys/sub-EE_ses-EE+088_channels.json - Format "string" must be number - rules.tabular_data.microephys.microephysChannels
+		/sub-EE/ses-EE+081/ecephys/sub-EE_ses-EE+081_channels.json - Format "string" must be number - rules.tabular_data.microephys.microephysChannels
+		/sub-EE/ses-EE+086/ecephys/sub-EE_ses-EE+086_channels.json - Format "string" must be number - rules.tabular_data.microephys.microephysChannels
+		/sub-EE/ses-EE+085/ecephys/sub-EE_ses-EE+085_channels.json - Format "string" must be number - rules.tabular_data.microephys.microephysChannels
+		/sub-EE/ses-EE+089/ecephys/sub-EE_ses-EE+089_channels.json - Format "string" must be number - rules.tabular_data.microephys.microephysChannels
+		/sub-EE/ses-EE+083/ecephys/sub-EE_ses-EE+083_channels.json - Format "string" must be number - rules.tabular_data.microephys.microephysChannels
+		/sub-EE/ses-EE+087/ecephys/sub-EE_ses-EE+087_channels.json - Format "string" must be number - rules.tabular_data.microephys.microephysChannels
+		/sub-EE/ses-EE+084/ecephys/sub-EE_ses-EE+084_channels.json - Format "string" must be number - rules.tabular_data.microephys.microephysChannels
+		/sub-EE/ses-EE+080/ecephys/sub-EE_ses-EE+080_channels.json - Format "string" must be number - rules.tabular_data.microephys.microephysChannels
 
 	Please visit https://neurostars.org/search?q=TSV_COLUMN_TYPE_REDEFINED for existing conversations about this issue.
 
@@ -47,144 +133,1126 @@ values.
 		StimulusPresentation
 		/sub-FF/ses-FF+103/ecephys/sub-FF_ses-FF+103_events.tsv - Field description: Object containing key-value pairs related to the software used to present
 the stimuli during the experiment.
-
+ - rules.sidecars.events.StimulusPresentation
 		/sub-FF/ses-FF+130/ecephys/sub-FF_ses-FF+130_events.tsv - Field description: Object containing key-value pairs related to the software used to present
 the stimuli during the experiment.
-
-
-		8 more files with the same issue
+ - rules.sidecars.events.StimulusPresentation
+		/sub-FF/ses-FF+167/ecephys/sub-FF_ses-FF+167_events.tsv - Field description: Object containing key-value pairs related to the software used to present
+the stimuli during the experiment.
+ - rules.sidecars.events.StimulusPresentation
+		/sub-EE/ses-EE+196/ecephys/sub-EE_ses-EE+196_events.tsv - Field description: Object containing key-value pairs related to the software used to present
+the stimuli during the experiment.
+ - rules.sidecars.events.StimulusPresentation
+		/sub-EE/ses-EE+049/ecephys/sub-EE_ses-EE+049_events.tsv - Field description: Object containing key-value pairs related to the software used to present
+the stimuli during the experiment.
+ - rules.sidecars.events.StimulusPresentation
+		/sub-EE/ses-EE+088/ecephys/sub-EE_ses-EE+088_events.tsv - Field description: Object containing key-value pairs related to the software used to present
+the stimuli during the experiment.
+ - rules.sidecars.events.StimulusPresentation
+		/sub-GG/ses-GG+097/ecephys/sub-GG_ses-GG+097_events.tsv - Field description: Object containing key-value pairs related to the software used to present
+the stimuli during the experiment.
+ - rules.sidecars.events.StimulusPresentation
+		/sub-GG/ses-GG+069/ecephys/sub-GG_ses-GG+069_events.tsv - Field description: Object containing key-value pairs related to the software used to present
+the stimuli during the experiment.
+ - rules.sidecars.events.StimulusPresentation
+		/sub-GG/ses-GG+063/ecephys/sub-GG_ses-GG+063_events.tsv - Field description: Object containing key-value pairs related to the software used to present
+the stimuli during the experiment.
+ - rules.sidecars.events.StimulusPresentation
+		/sub-GG/ses-GG+149/ecephys/sub-GG_ses-GG+149_events.tsv - Field description: Object containing key-value pairs related to the software used to present
+the stimuli during the experiment.
+ - rules.sidecars.events.StimulusPresentation
 
 		InstitutionAddress
 		/sub-FF/ses-FF+103/ecephys/sub-FF_ses-FF+103_ecephys.nwb - Field description: The address of the institution in charge of the equipment that produced the
 measurements.
-
+ - rules.sidecars.microephys.microephysInstitutionInformation
 		/sub-FF/ses-FF+130/ecephys/sub-FF_ses-FF+130_ecephys.nwb - Field description: The address of the institution in charge of the equipment that produced the
 measurements.
-
-
-		26 more files with the same issue
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-FF/ses-FF+167/ecephys/sub-FF_ses-FF+167_ecephys.nwb - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+045/ecephys/sub-EE_ses-EE+045_ecephys.nwb - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+196/ecephys/sub-EE_ses-EE+196_ecephys.nwb - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+082/ecephys/sub-EE_ses-EE+082_ecephys.nwb - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+044/ecephys/sub-EE_ses-EE+044_ecephys.nwb - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+042/ecephys/sub-EE_ses-EE+042_ecephys.nwb - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+049/ecephys/sub-EE_ses-EE+049_ecephys.nwb - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+210/ecephys/sub-EE_ses-EE+210_ecephys.nwb - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+043/ecephys/sub-EE_ses-EE+043_ecephys.nwb - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+088/ecephys/sub-EE_ses-EE+088_ecephys.nwb - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+081/ecephys/sub-EE_ses-EE+081_ecephys.nwb - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+086/ecephys/sub-EE_ses-EE+086_ecephys.nwb - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+085/ecephys/sub-EE_ses-EE+085_ecephys.nwb - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+047/ecephys/sub-EE_ses-EE+047_ecephys.nwb - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+046/ecephys/sub-EE_ses-EE+046_ecephys.nwb - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+089/ecephys/sub-EE_ses-EE+089_ecephys.nwb - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+083/ecephys/sub-EE_ses-EE+083_ecephys.nwb - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+050/ecephys/sub-EE_ses-EE+050_ecephys.nwb - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+087/ecephys/sub-EE_ses-EE+087_ecephys.nwb - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+048/ecephys/sub-EE_ses-EE+048_ecephys.nwb - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+084/ecephys/sub-EE_ses-EE+084_ecephys.nwb - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+080/ecephys/sub-EE_ses-EE+080_ecephys.nwb - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-GG/ses-GG+097/ecephys/sub-GG_ses-GG+097_ecephys.nwb - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-GG/ses-GG+069/ecephys/sub-GG_ses-GG+069_ecephys.nwb - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-GG/ses-GG+063/ecephys/sub-GG_ses-GG+063_ecephys.nwb - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-GG/ses-GG+149/ecephys/sub-GG_ses-GG+149_ecephys.nwb - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
 
 		InstitutionalDepartmentName
 		/sub-FF/ses-FF+103/ecephys/sub-FF_ses-FF+103_ecephys.nwb - Field description: The department in the institution in charge of the equipment that produced
 the measurements.
-
+ - rules.sidecars.microephys.microephysInstitutionInformation
 		/sub-FF/ses-FF+130/ecephys/sub-FF_ses-FF+130_ecephys.nwb - Field description: The department in the institution in charge of the equipment that produced
 the measurements.
-
-
-		26 more files with the same issue
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-FF/ses-FF+167/ecephys/sub-FF_ses-FF+167_ecephys.nwb - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+045/ecephys/sub-EE_ses-EE+045_ecephys.nwb - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+196/ecephys/sub-EE_ses-EE+196_ecephys.nwb - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+082/ecephys/sub-EE_ses-EE+082_ecephys.nwb - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+044/ecephys/sub-EE_ses-EE+044_ecephys.nwb - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+042/ecephys/sub-EE_ses-EE+042_ecephys.nwb - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+049/ecephys/sub-EE_ses-EE+049_ecephys.nwb - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+210/ecephys/sub-EE_ses-EE+210_ecephys.nwb - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+043/ecephys/sub-EE_ses-EE+043_ecephys.nwb - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+088/ecephys/sub-EE_ses-EE+088_ecephys.nwb - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+081/ecephys/sub-EE_ses-EE+081_ecephys.nwb - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+086/ecephys/sub-EE_ses-EE+086_ecephys.nwb - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+085/ecephys/sub-EE_ses-EE+085_ecephys.nwb - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+047/ecephys/sub-EE_ses-EE+047_ecephys.nwb - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+046/ecephys/sub-EE_ses-EE+046_ecephys.nwb - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+089/ecephys/sub-EE_ses-EE+089_ecephys.nwb - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+083/ecephys/sub-EE_ses-EE+083_ecephys.nwb - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+050/ecephys/sub-EE_ses-EE+050_ecephys.nwb - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+087/ecephys/sub-EE_ses-EE+087_ecephys.nwb - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+048/ecephys/sub-EE_ses-EE+048_ecephys.nwb - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+084/ecephys/sub-EE_ses-EE+084_ecephys.nwb - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-EE/ses-EE+080/ecephys/sub-EE_ses-EE+080_ecephys.nwb - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-GG/ses-GG+097/ecephys/sub-GG_ses-GG+097_ecephys.nwb - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-GG/ses-GG+069/ecephys/sub-GG_ses-GG+069_ecephys.nwb - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-GG/ses-GG+063/ecephys/sub-GG_ses-GG+063_ecephys.nwb - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
+		/sub-GG/ses-GG+149/ecephys/sub-GG_ses-GG+149_ecephys.nwb - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysInstitutionInformation
 
 		Manufacturer
 		/sub-FF/ses-FF+103/ecephys/sub-FF_ses-FF+103_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
-
+ - rules.sidecars.microephys.microephysSetup
 		/sub-FF/ses-FF+130/ecephys/sub-FF_ses-FF+130_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
-
-
-		26 more files with the same issue
+ - rules.sidecars.microephys.microephysSetup
+		/sub-FF/ses-FF+167/ecephys/sub-FF_ses-FF+167_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+045/ecephys/sub-EE_ses-EE+045_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+196/ecephys/sub-EE_ses-EE+196_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+082/ecephys/sub-EE_ses-EE+082_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+044/ecephys/sub-EE_ses-EE+044_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+042/ecephys/sub-EE_ses-EE+042_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+049/ecephys/sub-EE_ses-EE+049_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+210/ecephys/sub-EE_ses-EE+210_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+043/ecephys/sub-EE_ses-EE+043_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+088/ecephys/sub-EE_ses-EE+088_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+081/ecephys/sub-EE_ses-EE+081_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+086/ecephys/sub-EE_ses-EE+086_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+085/ecephys/sub-EE_ses-EE+085_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+047/ecephys/sub-EE_ses-EE+047_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+046/ecephys/sub-EE_ses-EE+046_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+089/ecephys/sub-EE_ses-EE+089_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+083/ecephys/sub-EE_ses-EE+083_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+050/ecephys/sub-EE_ses-EE+050_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+087/ecephys/sub-EE_ses-EE+087_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+048/ecephys/sub-EE_ses-EE+048_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+084/ecephys/sub-EE_ses-EE+084_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+080/ecephys/sub-EE_ses-EE+080_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-GG/ses-GG+097/ecephys/sub-GG_ses-GG+097_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-GG/ses-GG+069/ecephys/sub-GG_ses-GG+069_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-GG/ses-GG+063/ecephys/sub-GG_ses-GG+063_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-GG/ses-GG+149/ecephys/sub-GG_ses-GG+149_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
 
 		ManufacturersModelName
 		/sub-FF/ses-FF+103/ecephys/sub-FF_ses-FF+103_ecephys.nwb - Field description: Manufacturer's model name of the equipment that produced the measurements.
-
+ - rules.sidecars.microephys.microephysSetup
 		/sub-FF/ses-FF+130/ecephys/sub-FF_ses-FF+130_ecephys.nwb - Field description: Manufacturer's model name of the equipment that produced the measurements.
-
-
-		26 more files with the same issue
+ - rules.sidecars.microephys.microephysSetup
+		/sub-FF/ses-FF+167/ecephys/sub-FF_ses-FF+167_ecephys.nwb - Field description: Manufacturer's model name of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+045/ecephys/sub-EE_ses-EE+045_ecephys.nwb - Field description: Manufacturer's model name of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+196/ecephys/sub-EE_ses-EE+196_ecephys.nwb - Field description: Manufacturer's model name of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+082/ecephys/sub-EE_ses-EE+082_ecephys.nwb - Field description: Manufacturer's model name of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+044/ecephys/sub-EE_ses-EE+044_ecephys.nwb - Field description: Manufacturer's model name of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+042/ecephys/sub-EE_ses-EE+042_ecephys.nwb - Field description: Manufacturer's model name of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+049/ecephys/sub-EE_ses-EE+049_ecephys.nwb - Field description: Manufacturer's model name of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+210/ecephys/sub-EE_ses-EE+210_ecephys.nwb - Field description: Manufacturer's model name of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+043/ecephys/sub-EE_ses-EE+043_ecephys.nwb - Field description: Manufacturer's model name of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+088/ecephys/sub-EE_ses-EE+088_ecephys.nwb - Field description: Manufacturer's model name of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+081/ecephys/sub-EE_ses-EE+081_ecephys.nwb - Field description: Manufacturer's model name of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+086/ecephys/sub-EE_ses-EE+086_ecephys.nwb - Field description: Manufacturer's model name of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+085/ecephys/sub-EE_ses-EE+085_ecephys.nwb - Field description: Manufacturer's model name of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+047/ecephys/sub-EE_ses-EE+047_ecephys.nwb - Field description: Manufacturer's model name of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+046/ecephys/sub-EE_ses-EE+046_ecephys.nwb - Field description: Manufacturer's model name of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+089/ecephys/sub-EE_ses-EE+089_ecephys.nwb - Field description: Manufacturer's model name of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+083/ecephys/sub-EE_ses-EE+083_ecephys.nwb - Field description: Manufacturer's model name of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+050/ecephys/sub-EE_ses-EE+050_ecephys.nwb - Field description: Manufacturer's model name of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+087/ecephys/sub-EE_ses-EE+087_ecephys.nwb - Field description: Manufacturer's model name of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+048/ecephys/sub-EE_ses-EE+048_ecephys.nwb - Field description: Manufacturer's model name of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+084/ecephys/sub-EE_ses-EE+084_ecephys.nwb - Field description: Manufacturer's model name of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+080/ecephys/sub-EE_ses-EE+080_ecephys.nwb - Field description: Manufacturer's model name of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-GG/ses-GG+097/ecephys/sub-GG_ses-GG+097_ecephys.nwb - Field description: Manufacturer's model name of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-GG/ses-GG+069/ecephys/sub-GG_ses-GG+069_ecephys.nwb - Field description: Manufacturer's model name of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-GG/ses-GG+063/ecephys/sub-GG_ses-GG+063_ecephys.nwb - Field description: Manufacturer's model name of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-GG/ses-GG+149/ecephys/sub-GG_ses-GG+149_ecephys.nwb - Field description: Manufacturer's model name of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
 
 		ManufacturersModelVersion
 		/sub-FF/ses-FF+103/ecephys/sub-FF_ses-FF+103_ecephys.nwb - Field description: Manufacturer's model version of the equipment that produced the measurements.
-
+ - rules.sidecars.microephys.microephysSetup
 		/sub-FF/ses-FF+130/ecephys/sub-FF_ses-FF+130_ecephys.nwb - Field description: Manufacturer's model version of the equipment that produced the measurements.
-
-
-		26 more files with the same issue
+ - rules.sidecars.microephys.microephysSetup
+		/sub-FF/ses-FF+167/ecephys/sub-FF_ses-FF+167_ecephys.nwb - Field description: Manufacturer's model version of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+045/ecephys/sub-EE_ses-EE+045_ecephys.nwb - Field description: Manufacturer's model version of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+196/ecephys/sub-EE_ses-EE+196_ecephys.nwb - Field description: Manufacturer's model version of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+082/ecephys/sub-EE_ses-EE+082_ecephys.nwb - Field description: Manufacturer's model version of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+044/ecephys/sub-EE_ses-EE+044_ecephys.nwb - Field description: Manufacturer's model version of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+042/ecephys/sub-EE_ses-EE+042_ecephys.nwb - Field description: Manufacturer's model version of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+049/ecephys/sub-EE_ses-EE+049_ecephys.nwb - Field description: Manufacturer's model version of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+210/ecephys/sub-EE_ses-EE+210_ecephys.nwb - Field description: Manufacturer's model version of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+043/ecephys/sub-EE_ses-EE+043_ecephys.nwb - Field description: Manufacturer's model version of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+088/ecephys/sub-EE_ses-EE+088_ecephys.nwb - Field description: Manufacturer's model version of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+081/ecephys/sub-EE_ses-EE+081_ecephys.nwb - Field description: Manufacturer's model version of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+086/ecephys/sub-EE_ses-EE+086_ecephys.nwb - Field description: Manufacturer's model version of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+085/ecephys/sub-EE_ses-EE+085_ecephys.nwb - Field description: Manufacturer's model version of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+047/ecephys/sub-EE_ses-EE+047_ecephys.nwb - Field description: Manufacturer's model version of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+046/ecephys/sub-EE_ses-EE+046_ecephys.nwb - Field description: Manufacturer's model version of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+089/ecephys/sub-EE_ses-EE+089_ecephys.nwb - Field description: Manufacturer's model version of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+083/ecephys/sub-EE_ses-EE+083_ecephys.nwb - Field description: Manufacturer's model version of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+050/ecephys/sub-EE_ses-EE+050_ecephys.nwb - Field description: Manufacturer's model version of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+087/ecephys/sub-EE_ses-EE+087_ecephys.nwb - Field description: Manufacturer's model version of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+048/ecephys/sub-EE_ses-EE+048_ecephys.nwb - Field description: Manufacturer's model version of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+084/ecephys/sub-EE_ses-EE+084_ecephys.nwb - Field description: Manufacturer's model version of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+080/ecephys/sub-EE_ses-EE+080_ecephys.nwb - Field description: Manufacturer's model version of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-GG/ses-GG+097/ecephys/sub-GG_ses-GG+097_ecephys.nwb - Field description: Manufacturer's model version of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-GG/ses-GG+069/ecephys/sub-GG_ses-GG+069_ecephys.nwb - Field description: Manufacturer's model version of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-GG/ses-GG+063/ecephys/sub-GG_ses-GG+063_ecephys.nwb - Field description: Manufacturer's model version of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-GG/ses-GG+149/ecephys/sub-GG_ses-GG+149_ecephys.nwb - Field description: Manufacturer's model version of the equipment that produced the measurements.
+ - rules.sidecars.microephys.microephysSetup
 
 		RecordingSetupName
 		/sub-FF/ses-FF+103/ecephys/sub-FF_ses-FF+103_ecephys.nwb - Field description: Custom name of the recording setup.
-
+ - rules.sidecars.microephys.microephysSetup
 		/sub-FF/ses-FF+130/ecephys/sub-FF_ses-FF+130_ecephys.nwb - Field description: Custom name of the recording setup.
-
-
-		26 more files with the same issue
+ - rules.sidecars.microephys.microephysSetup
+		/sub-FF/ses-FF+167/ecephys/sub-FF_ses-FF+167_ecephys.nwb - Field description: Custom name of the recording setup.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+045/ecephys/sub-EE_ses-EE+045_ecephys.nwb - Field description: Custom name of the recording setup.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+196/ecephys/sub-EE_ses-EE+196_ecephys.nwb - Field description: Custom name of the recording setup.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+082/ecephys/sub-EE_ses-EE+082_ecephys.nwb - Field description: Custom name of the recording setup.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+044/ecephys/sub-EE_ses-EE+044_ecephys.nwb - Field description: Custom name of the recording setup.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+042/ecephys/sub-EE_ses-EE+042_ecephys.nwb - Field description: Custom name of the recording setup.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+049/ecephys/sub-EE_ses-EE+049_ecephys.nwb - Field description: Custom name of the recording setup.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+210/ecephys/sub-EE_ses-EE+210_ecephys.nwb - Field description: Custom name of the recording setup.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+043/ecephys/sub-EE_ses-EE+043_ecephys.nwb - Field description: Custom name of the recording setup.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+088/ecephys/sub-EE_ses-EE+088_ecephys.nwb - Field description: Custom name of the recording setup.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+081/ecephys/sub-EE_ses-EE+081_ecephys.nwb - Field description: Custom name of the recording setup.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+086/ecephys/sub-EE_ses-EE+086_ecephys.nwb - Field description: Custom name of the recording setup.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+085/ecephys/sub-EE_ses-EE+085_ecephys.nwb - Field description: Custom name of the recording setup.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+047/ecephys/sub-EE_ses-EE+047_ecephys.nwb - Field description: Custom name of the recording setup.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+046/ecephys/sub-EE_ses-EE+046_ecephys.nwb - Field description: Custom name of the recording setup.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+089/ecephys/sub-EE_ses-EE+089_ecephys.nwb - Field description: Custom name of the recording setup.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+083/ecephys/sub-EE_ses-EE+083_ecephys.nwb - Field description: Custom name of the recording setup.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+050/ecephys/sub-EE_ses-EE+050_ecephys.nwb - Field description: Custom name of the recording setup.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+087/ecephys/sub-EE_ses-EE+087_ecephys.nwb - Field description: Custom name of the recording setup.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+048/ecephys/sub-EE_ses-EE+048_ecephys.nwb - Field description: Custom name of the recording setup.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+084/ecephys/sub-EE_ses-EE+084_ecephys.nwb - Field description: Custom name of the recording setup.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+080/ecephys/sub-EE_ses-EE+080_ecephys.nwb - Field description: Custom name of the recording setup.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-GG/ses-GG+097/ecephys/sub-GG_ses-GG+097_ecephys.nwb - Field description: Custom name of the recording setup.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-GG/ses-GG+069/ecephys/sub-GG_ses-GG+069_ecephys.nwb - Field description: Custom name of the recording setup.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-GG/ses-GG+063/ecephys/sub-GG_ses-GG+063_ecephys.nwb - Field description: Custom name of the recording setup.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-GG/ses-GG+149/ecephys/sub-GG_ses-GG+149_ecephys.nwb - Field description: Custom name of the recording setup.
+ - rules.sidecars.microephys.microephysSetup
 
 		DeviceSerialNumber
 		/sub-FF/ses-FF+103/ecephys/sub-FF_ses-FF+103_ecephys.nwb - Field description: The serial number of the equipment that produced the measurements.
 A pseudonym can also be used to prevent the equipment from being
 identifiable, so long as each pseudonym is unique within the dataset.
-
+ - rules.sidecars.microephys.microephysSetup
 		/sub-FF/ses-FF+130/ecephys/sub-FF_ses-FF+130_ecephys.nwb - Field description: The serial number of the equipment that produced the measurements.
 A pseudonym can also be used to prevent the equipment from being
 identifiable, so long as each pseudonym is unique within the dataset.
-
-
-		26 more files with the same issue
+ - rules.sidecars.microephys.microephysSetup
+		/sub-FF/ses-FF+167/ecephys/sub-FF_ses-FF+167_ecephys.nwb - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+045/ecephys/sub-EE_ses-EE+045_ecephys.nwb - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+196/ecephys/sub-EE_ses-EE+196_ecephys.nwb - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+082/ecephys/sub-EE_ses-EE+082_ecephys.nwb - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+044/ecephys/sub-EE_ses-EE+044_ecephys.nwb - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+042/ecephys/sub-EE_ses-EE+042_ecephys.nwb - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+049/ecephys/sub-EE_ses-EE+049_ecephys.nwb - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+210/ecephys/sub-EE_ses-EE+210_ecephys.nwb - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+043/ecephys/sub-EE_ses-EE+043_ecephys.nwb - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+088/ecephys/sub-EE_ses-EE+088_ecephys.nwb - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+081/ecephys/sub-EE_ses-EE+081_ecephys.nwb - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+086/ecephys/sub-EE_ses-EE+086_ecephys.nwb - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+085/ecephys/sub-EE_ses-EE+085_ecephys.nwb - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+047/ecephys/sub-EE_ses-EE+047_ecephys.nwb - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+046/ecephys/sub-EE_ses-EE+046_ecephys.nwb - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+089/ecephys/sub-EE_ses-EE+089_ecephys.nwb - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+083/ecephys/sub-EE_ses-EE+083_ecephys.nwb - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+050/ecephys/sub-EE_ses-EE+050_ecephys.nwb - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+087/ecephys/sub-EE_ses-EE+087_ecephys.nwb - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+048/ecephys/sub-EE_ses-EE+048_ecephys.nwb - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+084/ecephys/sub-EE_ses-EE+084_ecephys.nwb - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+080/ecephys/sub-EE_ses-EE+080_ecephys.nwb - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-GG/ses-GG+097/ecephys/sub-GG_ses-GG+097_ecephys.nwb - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-GG/ses-GG+069/ecephys/sub-GG_ses-GG+069_ecephys.nwb - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-GG/ses-GG+063/ecephys/sub-GG_ses-GG+063_ecephys.nwb - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-GG/ses-GG+149/ecephys/sub-GG_ses-GG+149_ecephys.nwb - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+ - rules.sidecars.microephys.microephysSetup
 
 		SoftwareName
 		/sub-FF/ses-FF+103/ecephys/sub-FF_ses-FF+103_ecephys.nwb - Field description: Name of the software that was used to present the stimuli.
-
+ - rules.sidecars.microephys.microephysSetup
 		/sub-FF/ses-FF+130/ecephys/sub-FF_ses-FF+130_ecephys.nwb - Field description: Name of the software that was used to present the stimuli.
-
-
-		26 more files with the same issue
+ - rules.sidecars.microephys.microephysSetup
+		/sub-FF/ses-FF+167/ecephys/sub-FF_ses-FF+167_ecephys.nwb - Field description: Name of the software that was used to present the stimuli.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+045/ecephys/sub-EE_ses-EE+045_ecephys.nwb - Field description: Name of the software that was used to present the stimuli.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+196/ecephys/sub-EE_ses-EE+196_ecephys.nwb - Field description: Name of the software that was used to present the stimuli.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+082/ecephys/sub-EE_ses-EE+082_ecephys.nwb - Field description: Name of the software that was used to present the stimuli.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+044/ecephys/sub-EE_ses-EE+044_ecephys.nwb - Field description: Name of the software that was used to present the stimuli.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+042/ecephys/sub-EE_ses-EE+042_ecephys.nwb - Field description: Name of the software that was used to present the stimuli.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+049/ecephys/sub-EE_ses-EE+049_ecephys.nwb - Field description: Name of the software that was used to present the stimuli.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+210/ecephys/sub-EE_ses-EE+210_ecephys.nwb - Field description: Name of the software that was used to present the stimuli.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+043/ecephys/sub-EE_ses-EE+043_ecephys.nwb - Field description: Name of the software that was used to present the stimuli.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+088/ecephys/sub-EE_ses-EE+088_ecephys.nwb - Field description: Name of the software that was used to present the stimuli.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+081/ecephys/sub-EE_ses-EE+081_ecephys.nwb - Field description: Name of the software that was used to present the stimuli.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+086/ecephys/sub-EE_ses-EE+086_ecephys.nwb - Field description: Name of the software that was used to present the stimuli.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+085/ecephys/sub-EE_ses-EE+085_ecephys.nwb - Field description: Name of the software that was used to present the stimuli.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+047/ecephys/sub-EE_ses-EE+047_ecephys.nwb - Field description: Name of the software that was used to present the stimuli.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+046/ecephys/sub-EE_ses-EE+046_ecephys.nwb - Field description: Name of the software that was used to present the stimuli.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+089/ecephys/sub-EE_ses-EE+089_ecephys.nwb - Field description: Name of the software that was used to present the stimuli.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+083/ecephys/sub-EE_ses-EE+083_ecephys.nwb - Field description: Name of the software that was used to present the stimuli.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+050/ecephys/sub-EE_ses-EE+050_ecephys.nwb - Field description: Name of the software that was used to present the stimuli.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+087/ecephys/sub-EE_ses-EE+087_ecephys.nwb - Field description: Name of the software that was used to present the stimuli.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+048/ecephys/sub-EE_ses-EE+048_ecephys.nwb - Field description: Name of the software that was used to present the stimuli.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+084/ecephys/sub-EE_ses-EE+084_ecephys.nwb - Field description: Name of the software that was used to present the stimuli.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+080/ecephys/sub-EE_ses-EE+080_ecephys.nwb - Field description: Name of the software that was used to present the stimuli.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-GG/ses-GG+097/ecephys/sub-GG_ses-GG+097_ecephys.nwb - Field description: Name of the software that was used to present the stimuli.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-GG/ses-GG+069/ecephys/sub-GG_ses-GG+069_ecephys.nwb - Field description: Name of the software that was used to present the stimuli.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-GG/ses-GG+063/ecephys/sub-GG_ses-GG+063_ecephys.nwb - Field description: Name of the software that was used to present the stimuli.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-GG/ses-GG+149/ecephys/sub-GG_ses-GG+149_ecephys.nwb - Field description: Name of the software that was used to present the stimuli.
+ - rules.sidecars.microephys.microephysSetup
 
 		SoftwareVersions
 		/sub-FF/ses-FF+103/ecephys/sub-FF_ses-FF+103_ecephys.nwb - Field description: Manufacturer's designation of software version of the equipment that produced
 the measurements.
-
+ - rules.sidecars.microephys.microephysSetup
 		/sub-FF/ses-FF+130/ecephys/sub-FF_ses-FF+130_ecephys.nwb - Field description: Manufacturer's designation of software version of the equipment that produced
 the measurements.
-
-
-		26 more files with the same issue
+ - rules.sidecars.microephys.microephysSetup
+		/sub-FF/ses-FF+167/ecephys/sub-FF_ses-FF+167_ecephys.nwb - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+045/ecephys/sub-EE_ses-EE+045_ecephys.nwb - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+196/ecephys/sub-EE_ses-EE+196_ecephys.nwb - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+082/ecephys/sub-EE_ses-EE+082_ecephys.nwb - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+044/ecephys/sub-EE_ses-EE+044_ecephys.nwb - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+042/ecephys/sub-EE_ses-EE+042_ecephys.nwb - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+049/ecephys/sub-EE_ses-EE+049_ecephys.nwb - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+210/ecephys/sub-EE_ses-EE+210_ecephys.nwb - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+043/ecephys/sub-EE_ses-EE+043_ecephys.nwb - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+088/ecephys/sub-EE_ses-EE+088_ecephys.nwb - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+081/ecephys/sub-EE_ses-EE+081_ecephys.nwb - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+086/ecephys/sub-EE_ses-EE+086_ecephys.nwb - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+085/ecephys/sub-EE_ses-EE+085_ecephys.nwb - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+047/ecephys/sub-EE_ses-EE+047_ecephys.nwb - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+046/ecephys/sub-EE_ses-EE+046_ecephys.nwb - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+089/ecephys/sub-EE_ses-EE+089_ecephys.nwb - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+083/ecephys/sub-EE_ses-EE+083_ecephys.nwb - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+050/ecephys/sub-EE_ses-EE+050_ecephys.nwb - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+087/ecephys/sub-EE_ses-EE+087_ecephys.nwb - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+048/ecephys/sub-EE_ses-EE+048_ecephys.nwb - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+084/ecephys/sub-EE_ses-EE+084_ecephys.nwb - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+080/ecephys/sub-EE_ses-EE+080_ecephys.nwb - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-GG/ses-GG+097/ecephys/sub-GG_ses-GG+097_ecephys.nwb - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-GG/ses-GG+069/ecephys/sub-GG_ses-GG+069_ecephys.nwb - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-GG/ses-GG+063/ecephys/sub-GG_ses-GG+063_ecephys.nwb - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysSetup
+		/sub-GG/ses-GG+149/ecephys/sub-GG_ses-GG+149_ecephys.nwb - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+ - rules.sidecars.microephys.microephysSetup
 
 		RecordingType
 		/sub-FF/ses-FF+103/ecephys/sub-FF_ses-FF+103_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
 `"epoched"`, where `"epoched"` is limited to time windows about events of
 interest (for example, stimulus presentations or subject responses).
-
+ - rules.sidecars.microephys.microephysSetup
 		/sub-FF/ses-FF+130/ecephys/sub-FF_ses-FF+130_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
 `"epoched"`, where `"epoched"` is limited to time windows about events of
 interest (for example, stimulus presentations or subject responses).
-
-
-		26 more files with the same issue
+ - rules.sidecars.microephys.microephysSetup
+		/sub-FF/ses-FF+167/ecephys/sub-FF_ses-FF+167_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+045/ecephys/sub-EE_ses-EE+045_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+196/ecephys/sub-EE_ses-EE+196_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+082/ecephys/sub-EE_ses-EE+082_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+044/ecephys/sub-EE_ses-EE+044_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+042/ecephys/sub-EE_ses-EE+042_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+049/ecephys/sub-EE_ses-EE+049_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+210/ecephys/sub-EE_ses-EE+210_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+043/ecephys/sub-EE_ses-EE+043_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+088/ecephys/sub-EE_ses-EE+088_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+081/ecephys/sub-EE_ses-EE+081_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+086/ecephys/sub-EE_ses-EE+086_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+085/ecephys/sub-EE_ses-EE+085_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+047/ecephys/sub-EE_ses-EE+047_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+046/ecephys/sub-EE_ses-EE+046_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+089/ecephys/sub-EE_ses-EE+089_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+083/ecephys/sub-EE_ses-EE+083_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+050/ecephys/sub-EE_ses-EE+050_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+087/ecephys/sub-EE_ses-EE+087_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+048/ecephys/sub-EE_ses-EE+048_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+084/ecephys/sub-EE_ses-EE+084_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+080/ecephys/sub-EE_ses-EE+080_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-GG/ses-GG+097/ecephys/sub-GG_ses-GG+097_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-GG/ses-GG+069/ecephys/sub-GG_ses-GG+069_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-GG/ses-GG+063/ecephys/sub-GG_ses-GG+063_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-GG/ses-GG+149/ecephys/sub-GG_ses-GG+149_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+ - rules.sidecars.microephys.microephysSetup
 
 		PharmaceuticalName
 		/sub-FF/ses-FF+103/ecephys/sub-FF_ses-FF+103_ecephys.nwb - Field description: Name of pharmaceutical.
-
+ - rules.sidecars.microephys.microephysPharmaceuticals
 		/sub-FF/ses-FF+130/ecephys/sub-FF_ses-FF+130_ecephys.nwb - Field description: Name of pharmaceutical.
-
-
-		26 more files with the same issue
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-FF/ses-FF+167/ecephys/sub-FF_ses-FF+167_ecephys.nwb - Field description: Name of pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+045/ecephys/sub-EE_ses-EE+045_ecephys.nwb - Field description: Name of pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+196/ecephys/sub-EE_ses-EE+196_ecephys.nwb - Field description: Name of pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+082/ecephys/sub-EE_ses-EE+082_ecephys.nwb - Field description: Name of pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+044/ecephys/sub-EE_ses-EE+044_ecephys.nwb - Field description: Name of pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+042/ecephys/sub-EE_ses-EE+042_ecephys.nwb - Field description: Name of pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+049/ecephys/sub-EE_ses-EE+049_ecephys.nwb - Field description: Name of pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+210/ecephys/sub-EE_ses-EE+210_ecephys.nwb - Field description: Name of pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+043/ecephys/sub-EE_ses-EE+043_ecephys.nwb - Field description: Name of pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+088/ecephys/sub-EE_ses-EE+088_ecephys.nwb - Field description: Name of pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+081/ecephys/sub-EE_ses-EE+081_ecephys.nwb - Field description: Name of pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+086/ecephys/sub-EE_ses-EE+086_ecephys.nwb - Field description: Name of pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+085/ecephys/sub-EE_ses-EE+085_ecephys.nwb - Field description: Name of pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+047/ecephys/sub-EE_ses-EE+047_ecephys.nwb - Field description: Name of pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+046/ecephys/sub-EE_ses-EE+046_ecephys.nwb - Field description: Name of pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+089/ecephys/sub-EE_ses-EE+089_ecephys.nwb - Field description: Name of pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+083/ecephys/sub-EE_ses-EE+083_ecephys.nwb - Field description: Name of pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+050/ecephys/sub-EE_ses-EE+050_ecephys.nwb - Field description: Name of pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+087/ecephys/sub-EE_ses-EE+087_ecephys.nwb - Field description: Name of pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+048/ecephys/sub-EE_ses-EE+048_ecephys.nwb - Field description: Name of pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+084/ecephys/sub-EE_ses-EE+084_ecephys.nwb - Field description: Name of pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+080/ecephys/sub-EE_ses-EE+080_ecephys.nwb - Field description: Name of pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-GG/ses-GG+097/ecephys/sub-GG_ses-GG+097_ecephys.nwb - Field description: Name of pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-GG/ses-GG+069/ecephys/sub-GG_ses-GG+069_ecephys.nwb - Field description: Name of pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-GG/ses-GG+063/ecephys/sub-GG_ses-GG+063_ecephys.nwb - Field description: Name of pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-GG/ses-GG+149/ecephys/sub-GG_ses-GG+149_ecephys.nwb - Field description: Name of pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
 
 		PharmaceuticalDoseAmount
 		/sub-FF/ses-FF+103/ecephys/sub-FF_ses-FF+103_ecephys.nwb - Field description: Dose amount of administered pharmaceutical.
-
+ - rules.sidecars.microephys.microephysPharmaceuticals
 		/sub-FF/ses-FF+130/ecephys/sub-FF_ses-FF+130_ecephys.nwb - Field description: Dose amount of administered pharmaceutical.
-
-
-		26 more files with the same issue
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-FF/ses-FF+167/ecephys/sub-FF_ses-FF+167_ecephys.nwb - Field description: Dose amount of administered pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+045/ecephys/sub-EE_ses-EE+045_ecephys.nwb - Field description: Dose amount of administered pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+196/ecephys/sub-EE_ses-EE+196_ecephys.nwb - Field description: Dose amount of administered pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+082/ecephys/sub-EE_ses-EE+082_ecephys.nwb - Field description: Dose amount of administered pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+044/ecephys/sub-EE_ses-EE+044_ecephys.nwb - Field description: Dose amount of administered pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+042/ecephys/sub-EE_ses-EE+042_ecephys.nwb - Field description: Dose amount of administered pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+049/ecephys/sub-EE_ses-EE+049_ecephys.nwb - Field description: Dose amount of administered pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+210/ecephys/sub-EE_ses-EE+210_ecephys.nwb - Field description: Dose amount of administered pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+043/ecephys/sub-EE_ses-EE+043_ecephys.nwb - Field description: Dose amount of administered pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+088/ecephys/sub-EE_ses-EE+088_ecephys.nwb - Field description: Dose amount of administered pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+081/ecephys/sub-EE_ses-EE+081_ecephys.nwb - Field description: Dose amount of administered pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+086/ecephys/sub-EE_ses-EE+086_ecephys.nwb - Field description: Dose amount of administered pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+085/ecephys/sub-EE_ses-EE+085_ecephys.nwb - Field description: Dose amount of administered pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+047/ecephys/sub-EE_ses-EE+047_ecephys.nwb - Field description: Dose amount of administered pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+046/ecephys/sub-EE_ses-EE+046_ecephys.nwb - Field description: Dose amount of administered pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+089/ecephys/sub-EE_ses-EE+089_ecephys.nwb - Field description: Dose amount of administered pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+083/ecephys/sub-EE_ses-EE+083_ecephys.nwb - Field description: Dose amount of administered pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+050/ecephys/sub-EE_ses-EE+050_ecephys.nwb - Field description: Dose amount of administered pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+087/ecephys/sub-EE_ses-EE+087_ecephys.nwb - Field description: Dose amount of administered pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+048/ecephys/sub-EE_ses-EE+048_ecephys.nwb - Field description: Dose amount of administered pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+084/ecephys/sub-EE_ses-EE+084_ecephys.nwb - Field description: Dose amount of administered pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+080/ecephys/sub-EE_ses-EE+080_ecephys.nwb - Field description: Dose amount of administered pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-GG/ses-GG+097/ecephys/sub-GG_ses-GG+097_ecephys.nwb - Field description: Dose amount of administered pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-GG/ses-GG+069/ecephys/sub-GG_ses-GG+069_ecephys.nwb - Field description: Dose amount of administered pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-GG/ses-GG+063/ecephys/sub-GG_ses-GG+063_ecephys.nwb - Field description: Dose amount of administered pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-GG/ses-GG+149/ecephys/sub-GG_ses-GG+149_ecephys.nwb - Field description: Dose amount of administered pharmaceutical.
+ - rules.sidecars.microephys.microephysPharmaceuticals
 
 		PharmaceuticalDoseUnits
 		/sub-FF/ses-FF+103/ecephys/sub-FF_ses-FF+103_ecephys.nwb - Field description: Unit format relating to pharmaceutical dose
 (for example, `"mg"` or `"mg/kg"`).
-
+ - rules.sidecars.microephys.microephysPharmaceuticals
 		/sub-FF/ses-FF+130/ecephys/sub-FF_ses-FF+130_ecephys.nwb - Field description: Unit format relating to pharmaceutical dose
 (for example, `"mg"` or `"mg/kg"`).
-
-
-		26 more files with the same issue
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-FF/ses-FF+167/ecephys/sub-FF_ses-FF+167_ecephys.nwb - Field description: Unit format relating to pharmaceutical dose
+(for example, `"mg"` or `"mg/kg"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+045/ecephys/sub-EE_ses-EE+045_ecephys.nwb - Field description: Unit format relating to pharmaceutical dose
+(for example, `"mg"` or `"mg/kg"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+196/ecephys/sub-EE_ses-EE+196_ecephys.nwb - Field description: Unit format relating to pharmaceutical dose
+(for example, `"mg"` or `"mg/kg"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+082/ecephys/sub-EE_ses-EE+082_ecephys.nwb - Field description: Unit format relating to pharmaceutical dose
+(for example, `"mg"` or `"mg/kg"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+044/ecephys/sub-EE_ses-EE+044_ecephys.nwb - Field description: Unit format relating to pharmaceutical dose
+(for example, `"mg"` or `"mg/kg"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+042/ecephys/sub-EE_ses-EE+042_ecephys.nwb - Field description: Unit format relating to pharmaceutical dose
+(for example, `"mg"` or `"mg/kg"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+049/ecephys/sub-EE_ses-EE+049_ecephys.nwb - Field description: Unit format relating to pharmaceutical dose
+(for example, `"mg"` or `"mg/kg"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+210/ecephys/sub-EE_ses-EE+210_ecephys.nwb - Field description: Unit format relating to pharmaceutical dose
+(for example, `"mg"` or `"mg/kg"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+043/ecephys/sub-EE_ses-EE+043_ecephys.nwb - Field description: Unit format relating to pharmaceutical dose
+(for example, `"mg"` or `"mg/kg"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+088/ecephys/sub-EE_ses-EE+088_ecephys.nwb - Field description: Unit format relating to pharmaceutical dose
+(for example, `"mg"` or `"mg/kg"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+081/ecephys/sub-EE_ses-EE+081_ecephys.nwb - Field description: Unit format relating to pharmaceutical dose
+(for example, `"mg"` or `"mg/kg"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+086/ecephys/sub-EE_ses-EE+086_ecephys.nwb - Field description: Unit format relating to pharmaceutical dose
+(for example, `"mg"` or `"mg/kg"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+085/ecephys/sub-EE_ses-EE+085_ecephys.nwb - Field description: Unit format relating to pharmaceutical dose
+(for example, `"mg"` or `"mg/kg"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+047/ecephys/sub-EE_ses-EE+047_ecephys.nwb - Field description: Unit format relating to pharmaceutical dose
+(for example, `"mg"` or `"mg/kg"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+046/ecephys/sub-EE_ses-EE+046_ecephys.nwb - Field description: Unit format relating to pharmaceutical dose
+(for example, `"mg"` or `"mg/kg"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+089/ecephys/sub-EE_ses-EE+089_ecephys.nwb - Field description: Unit format relating to pharmaceutical dose
+(for example, `"mg"` or `"mg/kg"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+083/ecephys/sub-EE_ses-EE+083_ecephys.nwb - Field description: Unit format relating to pharmaceutical dose
+(for example, `"mg"` or `"mg/kg"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+050/ecephys/sub-EE_ses-EE+050_ecephys.nwb - Field description: Unit format relating to pharmaceutical dose
+(for example, `"mg"` or `"mg/kg"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+087/ecephys/sub-EE_ses-EE+087_ecephys.nwb - Field description: Unit format relating to pharmaceutical dose
+(for example, `"mg"` or `"mg/kg"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+048/ecephys/sub-EE_ses-EE+048_ecephys.nwb - Field description: Unit format relating to pharmaceutical dose
+(for example, `"mg"` or `"mg/kg"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+084/ecephys/sub-EE_ses-EE+084_ecephys.nwb - Field description: Unit format relating to pharmaceutical dose
+(for example, `"mg"` or `"mg/kg"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+080/ecephys/sub-EE_ses-EE+080_ecephys.nwb - Field description: Unit format relating to pharmaceutical dose
+(for example, `"mg"` or `"mg/kg"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-GG/ses-GG+097/ecephys/sub-GG_ses-GG+097_ecephys.nwb - Field description: Unit format relating to pharmaceutical dose
+(for example, `"mg"` or `"mg/kg"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-GG/ses-GG+069/ecephys/sub-GG_ses-GG+069_ecephys.nwb - Field description: Unit format relating to pharmaceutical dose
+(for example, `"mg"` or `"mg/kg"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-GG/ses-GG+063/ecephys/sub-GG_ses-GG+063_ecephys.nwb - Field description: Unit format relating to pharmaceutical dose
+(for example, `"mg"` or `"mg/kg"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-GG/ses-GG+149/ecephys/sub-GG_ses-GG+149_ecephys.nwb - Field description: Unit format relating to pharmaceutical dose
+(for example, `"mg"` or `"mg/kg"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
 
 		PharmaceuticalDoseRegimen
 		/sub-FF/ses-FF+103/ecephys/sub-FF_ses-FF+103_ecephys.nwb - Field description: Details of the pharmaceutical dose regimen.
 Either adequate description or short-code relating to regimen documented
 elsewhere (for example, `"single oral bolus"`).
-
+ - rules.sidecars.microephys.microephysPharmaceuticals
 		/sub-FF/ses-FF+130/ecephys/sub-FF_ses-FF+130_ecephys.nwb - Field description: Details of the pharmaceutical dose regimen.
 Either adequate description or short-code relating to regimen documented
 elsewhere (for example, `"single oral bolus"`).
-
-
-		26 more files with the same issue
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-FF/ses-FF+167/ecephys/sub-FF_ses-FF+167_ecephys.nwb - Field description: Details of the pharmaceutical dose regimen.
+Either adequate description or short-code relating to regimen documented
+elsewhere (for example, `"single oral bolus"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+045/ecephys/sub-EE_ses-EE+045_ecephys.nwb - Field description: Details of the pharmaceutical dose regimen.
+Either adequate description or short-code relating to regimen documented
+elsewhere (for example, `"single oral bolus"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+196/ecephys/sub-EE_ses-EE+196_ecephys.nwb - Field description: Details of the pharmaceutical dose regimen.
+Either adequate description or short-code relating to regimen documented
+elsewhere (for example, `"single oral bolus"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+082/ecephys/sub-EE_ses-EE+082_ecephys.nwb - Field description: Details of the pharmaceutical dose regimen.
+Either adequate description or short-code relating to regimen documented
+elsewhere (for example, `"single oral bolus"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+044/ecephys/sub-EE_ses-EE+044_ecephys.nwb - Field description: Details of the pharmaceutical dose regimen.
+Either adequate description or short-code relating to regimen documented
+elsewhere (for example, `"single oral bolus"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+042/ecephys/sub-EE_ses-EE+042_ecephys.nwb - Field description: Details of the pharmaceutical dose regimen.
+Either adequate description or short-code relating to regimen documented
+elsewhere (for example, `"single oral bolus"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+049/ecephys/sub-EE_ses-EE+049_ecephys.nwb - Field description: Details of the pharmaceutical dose regimen.
+Either adequate description or short-code relating to regimen documented
+elsewhere (for example, `"single oral bolus"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+210/ecephys/sub-EE_ses-EE+210_ecephys.nwb - Field description: Details of the pharmaceutical dose regimen.
+Either adequate description or short-code relating to regimen documented
+elsewhere (for example, `"single oral bolus"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+043/ecephys/sub-EE_ses-EE+043_ecephys.nwb - Field description: Details of the pharmaceutical dose regimen.
+Either adequate description or short-code relating to regimen documented
+elsewhere (for example, `"single oral bolus"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+088/ecephys/sub-EE_ses-EE+088_ecephys.nwb - Field description: Details of the pharmaceutical dose regimen.
+Either adequate description or short-code relating to regimen documented
+elsewhere (for example, `"single oral bolus"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+081/ecephys/sub-EE_ses-EE+081_ecephys.nwb - Field description: Details of the pharmaceutical dose regimen.
+Either adequate description or short-code relating to regimen documented
+elsewhere (for example, `"single oral bolus"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+086/ecephys/sub-EE_ses-EE+086_ecephys.nwb - Field description: Details of the pharmaceutical dose regimen.
+Either adequate description or short-code relating to regimen documented
+elsewhere (for example, `"single oral bolus"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+085/ecephys/sub-EE_ses-EE+085_ecephys.nwb - Field description: Details of the pharmaceutical dose regimen.
+Either adequate description or short-code relating to regimen documented
+elsewhere (for example, `"single oral bolus"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+047/ecephys/sub-EE_ses-EE+047_ecephys.nwb - Field description: Details of the pharmaceutical dose regimen.
+Either adequate description or short-code relating to regimen documented
+elsewhere (for example, `"single oral bolus"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+046/ecephys/sub-EE_ses-EE+046_ecephys.nwb - Field description: Details of the pharmaceutical dose regimen.
+Either adequate description or short-code relating to regimen documented
+elsewhere (for example, `"single oral bolus"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+089/ecephys/sub-EE_ses-EE+089_ecephys.nwb - Field description: Details of the pharmaceutical dose regimen.
+Either adequate description or short-code relating to regimen documented
+elsewhere (for example, `"single oral bolus"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+083/ecephys/sub-EE_ses-EE+083_ecephys.nwb - Field description: Details of the pharmaceutical dose regimen.
+Either adequate description or short-code relating to regimen documented
+elsewhere (for example, `"single oral bolus"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+050/ecephys/sub-EE_ses-EE+050_ecephys.nwb - Field description: Details of the pharmaceutical dose regimen.
+Either adequate description or short-code relating to regimen documented
+elsewhere (for example, `"single oral bolus"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+087/ecephys/sub-EE_ses-EE+087_ecephys.nwb - Field description: Details of the pharmaceutical dose regimen.
+Either adequate description or short-code relating to regimen documented
+elsewhere (for example, `"single oral bolus"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+048/ecephys/sub-EE_ses-EE+048_ecephys.nwb - Field description: Details of the pharmaceutical dose regimen.
+Either adequate description or short-code relating to regimen documented
+elsewhere (for example, `"single oral bolus"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+084/ecephys/sub-EE_ses-EE+084_ecephys.nwb - Field description: Details of the pharmaceutical dose regimen.
+Either adequate description or short-code relating to regimen documented
+elsewhere (for example, `"single oral bolus"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+080/ecephys/sub-EE_ses-EE+080_ecephys.nwb - Field description: Details of the pharmaceutical dose regimen.
+Either adequate description or short-code relating to regimen documented
+elsewhere (for example, `"single oral bolus"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-GG/ses-GG+097/ecephys/sub-GG_ses-GG+097_ecephys.nwb - Field description: Details of the pharmaceutical dose regimen.
+Either adequate description or short-code relating to regimen documented
+elsewhere (for example, `"single oral bolus"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-GG/ses-GG+069/ecephys/sub-GG_ses-GG+069_ecephys.nwb - Field description: Details of the pharmaceutical dose regimen.
+Either adequate description or short-code relating to regimen documented
+elsewhere (for example, `"single oral bolus"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-GG/ses-GG+063/ecephys/sub-GG_ses-GG+063_ecephys.nwb - Field description: Details of the pharmaceutical dose regimen.
+Either adequate description or short-code relating to regimen documented
+elsewhere (for example, `"single oral bolus"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-GG/ses-GG+149/ecephys/sub-GG_ses-GG+149_ecephys.nwb - Field description: Details of the pharmaceutical dose regimen.
+Either adequate description or short-code relating to regimen documented
+elsewhere (for example, `"single oral bolus"`).
+ - rules.sidecars.microephys.microephysPharmaceuticals
 
 		PharmaceuticalDoseTime
 		/sub-FF/ses-FF+103/ecephys/sub-FF_ses-FF+103_ecephys.nwb - Field description: Time of administration of pharmaceutical dose, relative to time zero.
@@ -193,26 +1261,282 @@ start and end of the infusion period. For more complex dose regimens,
 the regimen description should be complete enough to enable unambiguous
 interpretation of `"PharmaceuticalDoseTime"`.
 Unit format of the specified pharmaceutical dose time MUST be seconds.
-
+ - rules.sidecars.microephys.microephysPharmaceuticals
 		/sub-FF/ses-FF+130/ecephys/sub-FF_ses-FF+130_ecephys.nwb - Field description: Time of administration of pharmaceutical dose, relative to time zero.
 For an infusion, this should be a vector with two elements specifying the
 start and end of the infusion period. For more complex dose regimens,
 the regimen description should be complete enough to enable unambiguous
 interpretation of `"PharmaceuticalDoseTime"`.
 Unit format of the specified pharmaceutical dose time MUST be seconds.
-
-
-		26 more files with the same issue
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-FF/ses-FF+167/ecephys/sub-FF_ses-FF+167_ecephys.nwb - Field description: Time of administration of pharmaceutical dose, relative to time zero.
+For an infusion, this should be a vector with two elements specifying the
+start and end of the infusion period. For more complex dose regimens,
+the regimen description should be complete enough to enable unambiguous
+interpretation of `"PharmaceuticalDoseTime"`.
+Unit format of the specified pharmaceutical dose time MUST be seconds.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+045/ecephys/sub-EE_ses-EE+045_ecephys.nwb - Field description: Time of administration of pharmaceutical dose, relative to time zero.
+For an infusion, this should be a vector with two elements specifying the
+start and end of the infusion period. For more complex dose regimens,
+the regimen description should be complete enough to enable unambiguous
+interpretation of `"PharmaceuticalDoseTime"`.
+Unit format of the specified pharmaceutical dose time MUST be seconds.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+196/ecephys/sub-EE_ses-EE+196_ecephys.nwb - Field description: Time of administration of pharmaceutical dose, relative to time zero.
+For an infusion, this should be a vector with two elements specifying the
+start and end of the infusion period. For more complex dose regimens,
+the regimen description should be complete enough to enable unambiguous
+interpretation of `"PharmaceuticalDoseTime"`.
+Unit format of the specified pharmaceutical dose time MUST be seconds.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+082/ecephys/sub-EE_ses-EE+082_ecephys.nwb - Field description: Time of administration of pharmaceutical dose, relative to time zero.
+For an infusion, this should be a vector with two elements specifying the
+start and end of the infusion period. For more complex dose regimens,
+the regimen description should be complete enough to enable unambiguous
+interpretation of `"PharmaceuticalDoseTime"`.
+Unit format of the specified pharmaceutical dose time MUST be seconds.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+044/ecephys/sub-EE_ses-EE+044_ecephys.nwb - Field description: Time of administration of pharmaceutical dose, relative to time zero.
+For an infusion, this should be a vector with two elements specifying the
+start and end of the infusion period. For more complex dose regimens,
+the regimen description should be complete enough to enable unambiguous
+interpretation of `"PharmaceuticalDoseTime"`.
+Unit format of the specified pharmaceutical dose time MUST be seconds.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+042/ecephys/sub-EE_ses-EE+042_ecephys.nwb - Field description: Time of administration of pharmaceutical dose, relative to time zero.
+For an infusion, this should be a vector with two elements specifying the
+start and end of the infusion period. For more complex dose regimens,
+the regimen description should be complete enough to enable unambiguous
+interpretation of `"PharmaceuticalDoseTime"`.
+Unit format of the specified pharmaceutical dose time MUST be seconds.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+049/ecephys/sub-EE_ses-EE+049_ecephys.nwb - Field description: Time of administration of pharmaceutical dose, relative to time zero.
+For an infusion, this should be a vector with two elements specifying the
+start and end of the infusion period. For more complex dose regimens,
+the regimen description should be complete enough to enable unambiguous
+interpretation of `"PharmaceuticalDoseTime"`.
+Unit format of the specified pharmaceutical dose time MUST be seconds.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+210/ecephys/sub-EE_ses-EE+210_ecephys.nwb - Field description: Time of administration of pharmaceutical dose, relative to time zero.
+For an infusion, this should be a vector with two elements specifying the
+start and end of the infusion period. For more complex dose regimens,
+the regimen description should be complete enough to enable unambiguous
+interpretation of `"PharmaceuticalDoseTime"`.
+Unit format of the specified pharmaceutical dose time MUST be seconds.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+043/ecephys/sub-EE_ses-EE+043_ecephys.nwb - Field description: Time of administration of pharmaceutical dose, relative to time zero.
+For an infusion, this should be a vector with two elements specifying the
+start and end of the infusion period. For more complex dose regimens,
+the regimen description should be complete enough to enable unambiguous
+interpretation of `"PharmaceuticalDoseTime"`.
+Unit format of the specified pharmaceutical dose time MUST be seconds.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+088/ecephys/sub-EE_ses-EE+088_ecephys.nwb - Field description: Time of administration of pharmaceutical dose, relative to time zero.
+For an infusion, this should be a vector with two elements specifying the
+start and end of the infusion period. For more complex dose regimens,
+the regimen description should be complete enough to enable unambiguous
+interpretation of `"PharmaceuticalDoseTime"`.
+Unit format of the specified pharmaceutical dose time MUST be seconds.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+081/ecephys/sub-EE_ses-EE+081_ecephys.nwb - Field description: Time of administration of pharmaceutical dose, relative to time zero.
+For an infusion, this should be a vector with two elements specifying the
+start and end of the infusion period. For more complex dose regimens,
+the regimen description should be complete enough to enable unambiguous
+interpretation of `"PharmaceuticalDoseTime"`.
+Unit format of the specified pharmaceutical dose time MUST be seconds.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+086/ecephys/sub-EE_ses-EE+086_ecephys.nwb - Field description: Time of administration of pharmaceutical dose, relative to time zero.
+For an infusion, this should be a vector with two elements specifying the
+start and end of the infusion period. For more complex dose regimens,
+the regimen description should be complete enough to enable unambiguous
+interpretation of `"PharmaceuticalDoseTime"`.
+Unit format of the specified pharmaceutical dose time MUST be seconds.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+085/ecephys/sub-EE_ses-EE+085_ecephys.nwb - Field description: Time of administration of pharmaceutical dose, relative to time zero.
+For an infusion, this should be a vector with two elements specifying the
+start and end of the infusion period. For more complex dose regimens,
+the regimen description should be complete enough to enable unambiguous
+interpretation of `"PharmaceuticalDoseTime"`.
+Unit format of the specified pharmaceutical dose time MUST be seconds.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+047/ecephys/sub-EE_ses-EE+047_ecephys.nwb - Field description: Time of administration of pharmaceutical dose, relative to time zero.
+For an infusion, this should be a vector with two elements specifying the
+start and end of the infusion period. For more complex dose regimens,
+the regimen description should be complete enough to enable unambiguous
+interpretation of `"PharmaceuticalDoseTime"`.
+Unit format of the specified pharmaceutical dose time MUST be seconds.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+046/ecephys/sub-EE_ses-EE+046_ecephys.nwb - Field description: Time of administration of pharmaceutical dose, relative to time zero.
+For an infusion, this should be a vector with two elements specifying the
+start and end of the infusion period. For more complex dose regimens,
+the regimen description should be complete enough to enable unambiguous
+interpretation of `"PharmaceuticalDoseTime"`.
+Unit format of the specified pharmaceutical dose time MUST be seconds.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+089/ecephys/sub-EE_ses-EE+089_ecephys.nwb - Field description: Time of administration of pharmaceutical dose, relative to time zero.
+For an infusion, this should be a vector with two elements specifying the
+start and end of the infusion period. For more complex dose regimens,
+the regimen description should be complete enough to enable unambiguous
+interpretation of `"PharmaceuticalDoseTime"`.
+Unit format of the specified pharmaceutical dose time MUST be seconds.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+083/ecephys/sub-EE_ses-EE+083_ecephys.nwb - Field description: Time of administration of pharmaceutical dose, relative to time zero.
+For an infusion, this should be a vector with two elements specifying the
+start and end of the infusion period. For more complex dose regimens,
+the regimen description should be complete enough to enable unambiguous
+interpretation of `"PharmaceuticalDoseTime"`.
+Unit format of the specified pharmaceutical dose time MUST be seconds.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+050/ecephys/sub-EE_ses-EE+050_ecephys.nwb - Field description: Time of administration of pharmaceutical dose, relative to time zero.
+For an infusion, this should be a vector with two elements specifying the
+start and end of the infusion period. For more complex dose regimens,
+the regimen description should be complete enough to enable unambiguous
+interpretation of `"PharmaceuticalDoseTime"`.
+Unit format of the specified pharmaceutical dose time MUST be seconds.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+087/ecephys/sub-EE_ses-EE+087_ecephys.nwb - Field description: Time of administration of pharmaceutical dose, relative to time zero.
+For an infusion, this should be a vector with two elements specifying the
+start and end of the infusion period. For more complex dose regimens,
+the regimen description should be complete enough to enable unambiguous
+interpretation of `"PharmaceuticalDoseTime"`.
+Unit format of the specified pharmaceutical dose time MUST be seconds.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+048/ecephys/sub-EE_ses-EE+048_ecephys.nwb - Field description: Time of administration of pharmaceutical dose, relative to time zero.
+For an infusion, this should be a vector with two elements specifying the
+start and end of the infusion period. For more complex dose regimens,
+the regimen description should be complete enough to enable unambiguous
+interpretation of `"PharmaceuticalDoseTime"`.
+Unit format of the specified pharmaceutical dose time MUST be seconds.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+084/ecephys/sub-EE_ses-EE+084_ecephys.nwb - Field description: Time of administration of pharmaceutical dose, relative to time zero.
+For an infusion, this should be a vector with two elements specifying the
+start and end of the infusion period. For more complex dose regimens,
+the regimen description should be complete enough to enable unambiguous
+interpretation of `"PharmaceuticalDoseTime"`.
+Unit format of the specified pharmaceutical dose time MUST be seconds.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-EE/ses-EE+080/ecephys/sub-EE_ses-EE+080_ecephys.nwb - Field description: Time of administration of pharmaceutical dose, relative to time zero.
+For an infusion, this should be a vector with two elements specifying the
+start and end of the infusion period. For more complex dose regimens,
+the regimen description should be complete enough to enable unambiguous
+interpretation of `"PharmaceuticalDoseTime"`.
+Unit format of the specified pharmaceutical dose time MUST be seconds.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-GG/ses-GG+097/ecephys/sub-GG_ses-GG+097_ecephys.nwb - Field description: Time of administration of pharmaceutical dose, relative to time zero.
+For an infusion, this should be a vector with two elements specifying the
+start and end of the infusion period. For more complex dose regimens,
+the regimen description should be complete enough to enable unambiguous
+interpretation of `"PharmaceuticalDoseTime"`.
+Unit format of the specified pharmaceutical dose time MUST be seconds.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-GG/ses-GG+069/ecephys/sub-GG_ses-GG+069_ecephys.nwb - Field description: Time of administration of pharmaceutical dose, relative to time zero.
+For an infusion, this should be a vector with two elements specifying the
+start and end of the infusion period. For more complex dose regimens,
+the regimen description should be complete enough to enable unambiguous
+interpretation of `"PharmaceuticalDoseTime"`.
+Unit format of the specified pharmaceutical dose time MUST be seconds.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-GG/ses-GG+063/ecephys/sub-GG_ses-GG+063_ecephys.nwb - Field description: Time of administration of pharmaceutical dose, relative to time zero.
+For an infusion, this should be a vector with two elements specifying the
+start and end of the infusion period. For more complex dose regimens,
+the regimen description should be complete enough to enable unambiguous
+interpretation of `"PharmaceuticalDoseTime"`.
+Unit format of the specified pharmaceutical dose time MUST be seconds.
+ - rules.sidecars.microephys.microephysPharmaceuticals
+		/sub-GG/ses-GG+149/ecephys/sub-GG_ses-GG+149_ecephys.nwb - Field description: Time of administration of pharmaceutical dose, relative to time zero.
+For an infusion, this should be a vector with two elements specifying the
+start and end of the infusion period. For more complex dose regimens,
+the regimen description should be complete enough to enable unambiguous
+interpretation of `"PharmaceuticalDoseTime"`.
+Unit format of the specified pharmaceutical dose time MUST be seconds.
+ - rules.sidecars.microephys.microephysPharmaceuticals
 
 		SampleEnvironment
 		/sub-FF/ses-FF+103/ecephys/sub-FF_ses-FF+103_ecephys.nwb - Field description: Environment in which the sample was imaged. MUST be one of: `"in vivo"`, `"ex vivo"`
 or `"in vitro"`.
-
+ - rules.sidecars.microephys.microephysSample
 		/sub-FF/ses-FF+130/ecephys/sub-FF_ses-FF+130_ecephys.nwb - Field description: Environment in which the sample was imaged. MUST be one of: `"in vivo"`, `"ex vivo"`
 or `"in vitro"`.
-
-
-		26 more files with the same issue
+ - rules.sidecars.microephys.microephysSample
+		/sub-FF/ses-FF+167/ecephys/sub-FF_ses-FF+167_ecephys.nwb - Field description: Environment in which the sample was imaged. MUST be one of: `"in vivo"`, `"ex vivo"`
+or `"in vitro"`.
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+045/ecephys/sub-EE_ses-EE+045_ecephys.nwb - Field description: Environment in which the sample was imaged. MUST be one of: `"in vivo"`, `"ex vivo"`
+or `"in vitro"`.
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+196/ecephys/sub-EE_ses-EE+196_ecephys.nwb - Field description: Environment in which the sample was imaged. MUST be one of: `"in vivo"`, `"ex vivo"`
+or `"in vitro"`.
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+082/ecephys/sub-EE_ses-EE+082_ecephys.nwb - Field description: Environment in which the sample was imaged. MUST be one of: `"in vivo"`, `"ex vivo"`
+or `"in vitro"`.
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+044/ecephys/sub-EE_ses-EE+044_ecephys.nwb - Field description: Environment in which the sample was imaged. MUST be one of: `"in vivo"`, `"ex vivo"`
+or `"in vitro"`.
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+042/ecephys/sub-EE_ses-EE+042_ecephys.nwb - Field description: Environment in which the sample was imaged. MUST be one of: `"in vivo"`, `"ex vivo"`
+or `"in vitro"`.
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+049/ecephys/sub-EE_ses-EE+049_ecephys.nwb - Field description: Environment in which the sample was imaged. MUST be one of: `"in vivo"`, `"ex vivo"`
+or `"in vitro"`.
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+210/ecephys/sub-EE_ses-EE+210_ecephys.nwb - Field description: Environment in which the sample was imaged. MUST be one of: `"in vivo"`, `"ex vivo"`
+or `"in vitro"`.
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+043/ecephys/sub-EE_ses-EE+043_ecephys.nwb - Field description: Environment in which the sample was imaged. MUST be one of: `"in vivo"`, `"ex vivo"`
+or `"in vitro"`.
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+088/ecephys/sub-EE_ses-EE+088_ecephys.nwb - Field description: Environment in which the sample was imaged. MUST be one of: `"in vivo"`, `"ex vivo"`
+or `"in vitro"`.
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+081/ecephys/sub-EE_ses-EE+081_ecephys.nwb - Field description: Environment in which the sample was imaged. MUST be one of: `"in vivo"`, `"ex vivo"`
+or `"in vitro"`.
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+086/ecephys/sub-EE_ses-EE+086_ecephys.nwb - Field description: Environment in which the sample was imaged. MUST be one of: `"in vivo"`, `"ex vivo"`
+or `"in vitro"`.
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+085/ecephys/sub-EE_ses-EE+085_ecephys.nwb - Field description: Environment in which the sample was imaged. MUST be one of: `"in vivo"`, `"ex vivo"`
+or `"in vitro"`.
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+047/ecephys/sub-EE_ses-EE+047_ecephys.nwb - Field description: Environment in which the sample was imaged. MUST be one of: `"in vivo"`, `"ex vivo"`
+or `"in vitro"`.
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+046/ecephys/sub-EE_ses-EE+046_ecephys.nwb - Field description: Environment in which the sample was imaged. MUST be one of: `"in vivo"`, `"ex vivo"`
+or `"in vitro"`.
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+089/ecephys/sub-EE_ses-EE+089_ecephys.nwb - Field description: Environment in which the sample was imaged. MUST be one of: `"in vivo"`, `"ex vivo"`
+or `"in vitro"`.
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+083/ecephys/sub-EE_ses-EE+083_ecephys.nwb - Field description: Environment in which the sample was imaged. MUST be one of: `"in vivo"`, `"ex vivo"`
+or `"in vitro"`.
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+050/ecephys/sub-EE_ses-EE+050_ecephys.nwb - Field description: Environment in which the sample was imaged. MUST be one of: `"in vivo"`, `"ex vivo"`
+or `"in vitro"`.
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+087/ecephys/sub-EE_ses-EE+087_ecephys.nwb - Field description: Environment in which the sample was imaged. MUST be one of: `"in vivo"`, `"ex vivo"`
+or `"in vitro"`.
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+048/ecephys/sub-EE_ses-EE+048_ecephys.nwb - Field description: Environment in which the sample was imaged. MUST be one of: `"in vivo"`, `"ex vivo"`
+or `"in vitro"`.
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+084/ecephys/sub-EE_ses-EE+084_ecephys.nwb - Field description: Environment in which the sample was imaged. MUST be one of: `"in vivo"`, `"ex vivo"`
+or `"in vitro"`.
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+080/ecephys/sub-EE_ses-EE+080_ecephys.nwb - Field description: Environment in which the sample was imaged. MUST be one of: `"in vivo"`, `"ex vivo"`
+or `"in vitro"`.
+ - rules.sidecars.microephys.microephysSample
+		/sub-GG/ses-GG+097/ecephys/sub-GG_ses-GG+097_ecephys.nwb - Field description: Environment in which the sample was imaged. MUST be one of: `"in vivo"`, `"ex vivo"`
+or `"in vitro"`.
+ - rules.sidecars.microephys.microephysSample
+		/sub-GG/ses-GG+069/ecephys/sub-GG_ses-GG+069_ecephys.nwb - Field description: Environment in which the sample was imaged. MUST be one of: `"in vivo"`, `"ex vivo"`
+or `"in vitro"`.
+ - rules.sidecars.microephys.microephysSample
+		/sub-GG/ses-GG+063/ecephys/sub-GG_ses-GG+063_ecephys.nwb - Field description: Environment in which the sample was imaged. MUST be one of: `"in vivo"`, `"ex vivo"`
+or `"in vitro"`.
+ - rules.sidecars.microephys.microephysSample
+		/sub-GG/ses-GG+149/ecephys/sub-GG_ses-GG+149_ecephys.nwb - Field description: Environment in which the sample was imaged. MUST be one of: `"in vivo"`, `"ex vivo"`
+or `"in vitro"`.
+ - rules.sidecars.microephys.microephysSample
 
 		TaskName
 		/sub-FF/ses-FF+103/ecephys/sub-FF_ses-FF+103_ecephys.nwb - Field description: Name of the task.
@@ -222,7 +1546,7 @@ by removing all non-alphanumeric or `+` characters (that is, all except those ma
 and potentially replacing spaces with `+` to ease readability.
 For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond to task labels
 `faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.
-
+ - rules.sidecars.microephys.microephysTaskInformation
 		/sub-FF/ses-FF+130/ecephys/sub-FF_ses-FF+130_ecephys.nwb - Field description: Name of the task.
 No two tasks should have the same name.
 The task label included in the filename MAY be derived from this `"TaskName"` field
@@ -230,71 +1554,603 @@ by removing all non-alphanumeric or `+` characters (that is, all except those ma
 and potentially replacing spaces with `+` to ease readability.
 For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond to task labels
 `faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.
-
-
-		26 more files with the same issue
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-FF/ses-FF+167/ecephys/sub-FF_ses-FF+167_ecephys.nwb - Field description: Name of the task.
+No two tasks should have the same name.
+The task label included in the filename MAY be derived from this `"TaskName"` field
+by removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),
+and potentially replacing spaces with `+` to ease readability.
+For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond to task labels
+`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+045/ecephys/sub-EE_ses-EE+045_ecephys.nwb - Field description: Name of the task.
+No two tasks should have the same name.
+The task label included in the filename MAY be derived from this `"TaskName"` field
+by removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),
+and potentially replacing spaces with `+` to ease readability.
+For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond to task labels
+`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+196/ecephys/sub-EE_ses-EE+196_ecephys.nwb - Field description: Name of the task.
+No two tasks should have the same name.
+The task label included in the filename MAY be derived from this `"TaskName"` field
+by removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),
+and potentially replacing spaces with `+` to ease readability.
+For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond to task labels
+`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+082/ecephys/sub-EE_ses-EE+082_ecephys.nwb - Field description: Name of the task.
+No two tasks should have the same name.
+The task label included in the filename MAY be derived from this `"TaskName"` field
+by removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),
+and potentially replacing spaces with `+` to ease readability.
+For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond to task labels
+`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+044/ecephys/sub-EE_ses-EE+044_ecephys.nwb - Field description: Name of the task.
+No two tasks should have the same name.
+The task label included in the filename MAY be derived from this `"TaskName"` field
+by removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),
+and potentially replacing spaces with `+` to ease readability.
+For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond to task labels
+`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+042/ecephys/sub-EE_ses-EE+042_ecephys.nwb - Field description: Name of the task.
+No two tasks should have the same name.
+The task label included in the filename MAY be derived from this `"TaskName"` field
+by removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),
+and potentially replacing spaces with `+` to ease readability.
+For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond to task labels
+`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+049/ecephys/sub-EE_ses-EE+049_ecephys.nwb - Field description: Name of the task.
+No two tasks should have the same name.
+The task label included in the filename MAY be derived from this `"TaskName"` field
+by removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),
+and potentially replacing spaces with `+` to ease readability.
+For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond to task labels
+`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+210/ecephys/sub-EE_ses-EE+210_ecephys.nwb - Field description: Name of the task.
+No two tasks should have the same name.
+The task label included in the filename MAY be derived from this `"TaskName"` field
+by removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),
+and potentially replacing spaces with `+` to ease readability.
+For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond to task labels
+`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+043/ecephys/sub-EE_ses-EE+043_ecephys.nwb - Field description: Name of the task.
+No two tasks should have the same name.
+The task label included in the filename MAY be derived from this `"TaskName"` field
+by removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),
+and potentially replacing spaces with `+` to ease readability.
+For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond to task labels
+`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+088/ecephys/sub-EE_ses-EE+088_ecephys.nwb - Field description: Name of the task.
+No two tasks should have the same name.
+The task label included in the filename MAY be derived from this `"TaskName"` field
+by removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),
+and potentially replacing spaces with `+` to ease readability.
+For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond to task labels
+`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+081/ecephys/sub-EE_ses-EE+081_ecephys.nwb - Field description: Name of the task.
+No two tasks should have the same name.
+The task label included in the filename MAY be derived from this `"TaskName"` field
+by removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),
+and potentially replacing spaces with `+` to ease readability.
+For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond to task labels
+`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+086/ecephys/sub-EE_ses-EE+086_ecephys.nwb - Field description: Name of the task.
+No two tasks should have the same name.
+The task label included in the filename MAY be derived from this `"TaskName"` field
+by removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),
+and potentially replacing spaces with `+` to ease readability.
+For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond to task labels
+`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+085/ecephys/sub-EE_ses-EE+085_ecephys.nwb - Field description: Name of the task.
+No two tasks should have the same name.
+The task label included in the filename MAY be derived from this `"TaskName"` field
+by removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),
+and potentially replacing spaces with `+` to ease readability.
+For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond to task labels
+`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+047/ecephys/sub-EE_ses-EE+047_ecephys.nwb - Field description: Name of the task.
+No two tasks should have the same name.
+The task label included in the filename MAY be derived from this `"TaskName"` field
+by removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),
+and potentially replacing spaces with `+` to ease readability.
+For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond to task labels
+`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+046/ecephys/sub-EE_ses-EE+046_ecephys.nwb - Field description: Name of the task.
+No two tasks should have the same name.
+The task label included in the filename MAY be derived from this `"TaskName"` field
+by removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),
+and potentially replacing spaces with `+` to ease readability.
+For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond to task labels
+`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+089/ecephys/sub-EE_ses-EE+089_ecephys.nwb - Field description: Name of the task.
+No two tasks should have the same name.
+The task label included in the filename MAY be derived from this `"TaskName"` field
+by removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),
+and potentially replacing spaces with `+` to ease readability.
+For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond to task labels
+`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+083/ecephys/sub-EE_ses-EE+083_ecephys.nwb - Field description: Name of the task.
+No two tasks should have the same name.
+The task label included in the filename MAY be derived from this `"TaskName"` field
+by removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),
+and potentially replacing spaces with `+` to ease readability.
+For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond to task labels
+`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+050/ecephys/sub-EE_ses-EE+050_ecephys.nwb - Field description: Name of the task.
+No two tasks should have the same name.
+The task label included in the filename MAY be derived from this `"TaskName"` field
+by removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),
+and potentially replacing spaces with `+` to ease readability.
+For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond to task labels
+`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+087/ecephys/sub-EE_ses-EE+087_ecephys.nwb - Field description: Name of the task.
+No two tasks should have the same name.
+The task label included in the filename MAY be derived from this `"TaskName"` field
+by removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),
+and potentially replacing spaces with `+` to ease readability.
+For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond to task labels
+`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+048/ecephys/sub-EE_ses-EE+048_ecephys.nwb - Field description: Name of the task.
+No two tasks should have the same name.
+The task label included in the filename MAY be derived from this `"TaskName"` field
+by removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),
+and potentially replacing spaces with `+` to ease readability.
+For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond to task labels
+`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+084/ecephys/sub-EE_ses-EE+084_ecephys.nwb - Field description: Name of the task.
+No two tasks should have the same name.
+The task label included in the filename MAY be derived from this `"TaskName"` field
+by removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),
+and potentially replacing spaces with `+` to ease readability.
+For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond to task labels
+`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+080/ecephys/sub-EE_ses-EE+080_ecephys.nwb - Field description: Name of the task.
+No two tasks should have the same name.
+The task label included in the filename MAY be derived from this `"TaskName"` field
+by removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),
+and potentially replacing spaces with `+` to ease readability.
+For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond to task labels
+`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-GG/ses-GG+097/ecephys/sub-GG_ses-GG+097_ecephys.nwb - Field description: Name of the task.
+No two tasks should have the same name.
+The task label included in the filename MAY be derived from this `"TaskName"` field
+by removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),
+and potentially replacing spaces with `+` to ease readability.
+For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond to task labels
+`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-GG/ses-GG+069/ecephys/sub-GG_ses-GG+069_ecephys.nwb - Field description: Name of the task.
+No two tasks should have the same name.
+The task label included in the filename MAY be derived from this `"TaskName"` field
+by removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),
+and potentially replacing spaces with `+` to ease readability.
+For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond to task labels
+`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-GG/ses-GG+063/ecephys/sub-GG_ses-GG+063_ecephys.nwb - Field description: Name of the task.
+No two tasks should have the same name.
+The task label included in the filename MAY be derived from this `"TaskName"` field
+by removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),
+and potentially replacing spaces with `+` to ease readability.
+For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond to task labels
+`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-GG/ses-GG+149/ecephys/sub-GG_ses-GG+149_ecephys.nwb - Field description: Name of the task.
+No two tasks should have the same name.
+The task label included in the filename MAY be derived from this `"TaskName"` field
+by removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),
+and potentially replacing spaces with `+` to ease readability.
+For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond to task labels
+`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.
+ - rules.sidecars.microephys.microephysTaskInformation
 
 		TaskDescription
 		/sub-FF/ses-FF+103/ecephys/sub-FF_ses-FF+103_ecephys.nwb - Field description: Longer description of the task.
-
+ - rules.sidecars.microephys.microephysTaskInformation
 		/sub-FF/ses-FF+130/ecephys/sub-FF_ses-FF+130_ecephys.nwb - Field description: Longer description of the task.
-
-
-		26 more files with the same issue
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-FF/ses-FF+167/ecephys/sub-FF_ses-FF+167_ecephys.nwb - Field description: Longer description of the task.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+045/ecephys/sub-EE_ses-EE+045_ecephys.nwb - Field description: Longer description of the task.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+196/ecephys/sub-EE_ses-EE+196_ecephys.nwb - Field description: Longer description of the task.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+082/ecephys/sub-EE_ses-EE+082_ecephys.nwb - Field description: Longer description of the task.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+044/ecephys/sub-EE_ses-EE+044_ecephys.nwb - Field description: Longer description of the task.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+042/ecephys/sub-EE_ses-EE+042_ecephys.nwb - Field description: Longer description of the task.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+049/ecephys/sub-EE_ses-EE+049_ecephys.nwb - Field description: Longer description of the task.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+210/ecephys/sub-EE_ses-EE+210_ecephys.nwb - Field description: Longer description of the task.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+043/ecephys/sub-EE_ses-EE+043_ecephys.nwb - Field description: Longer description of the task.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+088/ecephys/sub-EE_ses-EE+088_ecephys.nwb - Field description: Longer description of the task.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+081/ecephys/sub-EE_ses-EE+081_ecephys.nwb - Field description: Longer description of the task.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+086/ecephys/sub-EE_ses-EE+086_ecephys.nwb - Field description: Longer description of the task.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+085/ecephys/sub-EE_ses-EE+085_ecephys.nwb - Field description: Longer description of the task.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+047/ecephys/sub-EE_ses-EE+047_ecephys.nwb - Field description: Longer description of the task.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+046/ecephys/sub-EE_ses-EE+046_ecephys.nwb - Field description: Longer description of the task.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+089/ecephys/sub-EE_ses-EE+089_ecephys.nwb - Field description: Longer description of the task.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+083/ecephys/sub-EE_ses-EE+083_ecephys.nwb - Field description: Longer description of the task.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+050/ecephys/sub-EE_ses-EE+050_ecephys.nwb - Field description: Longer description of the task.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+087/ecephys/sub-EE_ses-EE+087_ecephys.nwb - Field description: Longer description of the task.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+048/ecephys/sub-EE_ses-EE+048_ecephys.nwb - Field description: Longer description of the task.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+084/ecephys/sub-EE_ses-EE+084_ecephys.nwb - Field description: Longer description of the task.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+080/ecephys/sub-EE_ses-EE+080_ecephys.nwb - Field description: Longer description of the task.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-GG/ses-GG+097/ecephys/sub-GG_ses-GG+097_ecephys.nwb - Field description: Longer description of the task.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-GG/ses-GG+069/ecephys/sub-GG_ses-GG+069_ecephys.nwb - Field description: Longer description of the task.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-GG/ses-GG+063/ecephys/sub-GG_ses-GG+063_ecephys.nwb - Field description: Longer description of the task.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-GG/ses-GG+149/ecephys/sub-GG_ses-GG+149_ecephys.nwb - Field description: Longer description of the task.
+ - rules.sidecars.microephys.microephysTaskInformation
 
 		Instructions
 		/sub-FF/ses-FF+103/ecephys/sub-FF_ses-FF+103_ecephys.nwb - Field description: Text of the instructions given to participants before the recording.
-
+ - rules.sidecars.microephys.microephysTaskInformation
 		/sub-FF/ses-FF+130/ecephys/sub-FF_ses-FF+130_ecephys.nwb - Field description: Text of the instructions given to participants before the recording.
-
-
-		26 more files with the same issue
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-FF/ses-FF+167/ecephys/sub-FF_ses-FF+167_ecephys.nwb - Field description: Text of the instructions given to participants before the recording.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+045/ecephys/sub-EE_ses-EE+045_ecephys.nwb - Field description: Text of the instructions given to participants before the recording.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+196/ecephys/sub-EE_ses-EE+196_ecephys.nwb - Field description: Text of the instructions given to participants before the recording.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+082/ecephys/sub-EE_ses-EE+082_ecephys.nwb - Field description: Text of the instructions given to participants before the recording.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+044/ecephys/sub-EE_ses-EE+044_ecephys.nwb - Field description: Text of the instructions given to participants before the recording.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+042/ecephys/sub-EE_ses-EE+042_ecephys.nwb - Field description: Text of the instructions given to participants before the recording.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+049/ecephys/sub-EE_ses-EE+049_ecephys.nwb - Field description: Text of the instructions given to participants before the recording.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+210/ecephys/sub-EE_ses-EE+210_ecephys.nwb - Field description: Text of the instructions given to participants before the recording.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+043/ecephys/sub-EE_ses-EE+043_ecephys.nwb - Field description: Text of the instructions given to participants before the recording.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+088/ecephys/sub-EE_ses-EE+088_ecephys.nwb - Field description: Text of the instructions given to participants before the recording.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+081/ecephys/sub-EE_ses-EE+081_ecephys.nwb - Field description: Text of the instructions given to participants before the recording.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+086/ecephys/sub-EE_ses-EE+086_ecephys.nwb - Field description: Text of the instructions given to participants before the recording.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+085/ecephys/sub-EE_ses-EE+085_ecephys.nwb - Field description: Text of the instructions given to participants before the recording.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+047/ecephys/sub-EE_ses-EE+047_ecephys.nwb - Field description: Text of the instructions given to participants before the recording.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+046/ecephys/sub-EE_ses-EE+046_ecephys.nwb - Field description: Text of the instructions given to participants before the recording.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+089/ecephys/sub-EE_ses-EE+089_ecephys.nwb - Field description: Text of the instructions given to participants before the recording.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+083/ecephys/sub-EE_ses-EE+083_ecephys.nwb - Field description: Text of the instructions given to participants before the recording.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+050/ecephys/sub-EE_ses-EE+050_ecephys.nwb - Field description: Text of the instructions given to participants before the recording.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+087/ecephys/sub-EE_ses-EE+087_ecephys.nwb - Field description: Text of the instructions given to participants before the recording.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+048/ecephys/sub-EE_ses-EE+048_ecephys.nwb - Field description: Text of the instructions given to participants before the recording.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+084/ecephys/sub-EE_ses-EE+084_ecephys.nwb - Field description: Text of the instructions given to participants before the recording.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+080/ecephys/sub-EE_ses-EE+080_ecephys.nwb - Field description: Text of the instructions given to participants before the recording.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-GG/ses-GG+097/ecephys/sub-GG_ses-GG+097_ecephys.nwb - Field description: Text of the instructions given to participants before the recording.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-GG/ses-GG+069/ecephys/sub-GG_ses-GG+069_ecephys.nwb - Field description: Text of the instructions given to participants before the recording.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-GG/ses-GG+063/ecephys/sub-GG_ses-GG+063_ecephys.nwb - Field description: Text of the instructions given to participants before the recording.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-GG/ses-GG+149/ecephys/sub-GG_ses-GG+149_ecephys.nwb - Field description: Text of the instructions given to participants before the recording.
+ - rules.sidecars.microephys.microephysTaskInformation
 
 		CogAtlasID
 		/sub-FF/ses-FF+103/ecephys/sub-FF_ses-FF+103_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
 of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
 Task term.
-
+ - rules.sidecars.microephys.microephysTaskInformation
 		/sub-FF/ses-FF+130/ecephys/sub-FF_ses-FF+130_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
 of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
 Task term.
-
-
-		26 more files with the same issue
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-FF/ses-FF+167/ecephys/sub-FF_ses-FF+167_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
+Task term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+045/ecephys/sub-EE_ses-EE+045_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
+Task term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+196/ecephys/sub-EE_ses-EE+196_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
+Task term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+082/ecephys/sub-EE_ses-EE+082_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
+Task term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+044/ecephys/sub-EE_ses-EE+044_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
+Task term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+042/ecephys/sub-EE_ses-EE+042_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
+Task term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+049/ecephys/sub-EE_ses-EE+049_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
+Task term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+210/ecephys/sub-EE_ses-EE+210_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
+Task term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+043/ecephys/sub-EE_ses-EE+043_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
+Task term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+088/ecephys/sub-EE_ses-EE+088_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
+Task term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+081/ecephys/sub-EE_ses-EE+081_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
+Task term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+086/ecephys/sub-EE_ses-EE+086_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
+Task term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+085/ecephys/sub-EE_ses-EE+085_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
+Task term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+047/ecephys/sub-EE_ses-EE+047_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
+Task term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+046/ecephys/sub-EE_ses-EE+046_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
+Task term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+089/ecephys/sub-EE_ses-EE+089_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
+Task term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+083/ecephys/sub-EE_ses-EE+083_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
+Task term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+050/ecephys/sub-EE_ses-EE+050_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
+Task term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+087/ecephys/sub-EE_ses-EE+087_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
+Task term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+048/ecephys/sub-EE_ses-EE+048_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
+Task term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+084/ecephys/sub-EE_ses-EE+084_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
+Task term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+080/ecephys/sub-EE_ses-EE+080_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
+Task term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-GG/ses-GG+097/ecephys/sub-GG_ses-GG+097_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
+Task term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-GG/ses-GG+069/ecephys/sub-GG_ses-GG+069_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
+Task term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-GG/ses-GG+063/ecephys/sub-GG_ses-GG+063_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
+Task term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-GG/ses-GG+149/ecephys/sub-GG_ses-GG+149_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
+Task term.
+ - rules.sidecars.microephys.microephysTaskInformation
 
 		CogPOID
 		/sub-FF/ses-FF+103/ecephys/sub-FF_ses-FF+103_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
 of the corresponding [CogPO](http://www.cogpo.org/) term.
-
+ - rules.sidecars.microephys.microephysTaskInformation
 		/sub-FF/ses-FF+130/ecephys/sub-FF_ses-FF+130_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
 of the corresponding [CogPO](http://www.cogpo.org/) term.
-
-
-		26 more files with the same issue
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-FF/ses-FF+167/ecephys/sub-FF_ses-FF+167_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [CogPO](http://www.cogpo.org/) term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+045/ecephys/sub-EE_ses-EE+045_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [CogPO](http://www.cogpo.org/) term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+196/ecephys/sub-EE_ses-EE+196_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [CogPO](http://www.cogpo.org/) term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+082/ecephys/sub-EE_ses-EE+082_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [CogPO](http://www.cogpo.org/) term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+044/ecephys/sub-EE_ses-EE+044_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [CogPO](http://www.cogpo.org/) term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+042/ecephys/sub-EE_ses-EE+042_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [CogPO](http://www.cogpo.org/) term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+049/ecephys/sub-EE_ses-EE+049_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [CogPO](http://www.cogpo.org/) term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+210/ecephys/sub-EE_ses-EE+210_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [CogPO](http://www.cogpo.org/) term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+043/ecephys/sub-EE_ses-EE+043_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [CogPO](http://www.cogpo.org/) term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+088/ecephys/sub-EE_ses-EE+088_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [CogPO](http://www.cogpo.org/) term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+081/ecephys/sub-EE_ses-EE+081_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [CogPO](http://www.cogpo.org/) term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+086/ecephys/sub-EE_ses-EE+086_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [CogPO](http://www.cogpo.org/) term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+085/ecephys/sub-EE_ses-EE+085_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [CogPO](http://www.cogpo.org/) term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+047/ecephys/sub-EE_ses-EE+047_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [CogPO](http://www.cogpo.org/) term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+046/ecephys/sub-EE_ses-EE+046_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [CogPO](http://www.cogpo.org/) term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+089/ecephys/sub-EE_ses-EE+089_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [CogPO](http://www.cogpo.org/) term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+083/ecephys/sub-EE_ses-EE+083_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [CogPO](http://www.cogpo.org/) term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+050/ecephys/sub-EE_ses-EE+050_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [CogPO](http://www.cogpo.org/) term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+087/ecephys/sub-EE_ses-EE+087_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [CogPO](http://www.cogpo.org/) term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+048/ecephys/sub-EE_ses-EE+048_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [CogPO](http://www.cogpo.org/) term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+084/ecephys/sub-EE_ses-EE+084_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [CogPO](http://www.cogpo.org/) term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-EE/ses-EE+080/ecephys/sub-EE_ses-EE+080_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [CogPO](http://www.cogpo.org/) term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-GG/ses-GG+097/ecephys/sub-GG_ses-GG+097_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [CogPO](http://www.cogpo.org/) term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-GG/ses-GG+069/ecephys/sub-GG_ses-GG+069_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [CogPO](http://www.cogpo.org/) term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-GG/ses-GG+063/ecephys/sub-GG_ses-GG+063_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [CogPO](http://www.cogpo.org/) term.
+ - rules.sidecars.microephys.microephysTaskInformation
+		/sub-GG/ses-GG+149/ecephys/sub-GG_ses-GG+149_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
+of the corresponding [CogPO](http://www.cogpo.org/) term.
+ - rules.sidecars.microephys.microephysTaskInformation
 
 		RecordingDuration
 		/sub-EE/ses-EE+082/ecephys/sub-EE_ses-EE+082_ecephys.nwb - Field description: Length of the recording in seconds (for example, `3600`).
-
+ - rules.sidecars.microephys.microephysSetup
 		/sub-EE/ses-EE+042/ecephys/sub-EE_ses-EE+042_ecephys.nwb - Field description: Length of the recording in seconds (for example, `3600`).
-
-
-		9 more files with the same issue
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+088/ecephys/sub-EE_ses-EE+088_ecephys.nwb - Field description: Length of the recording in seconds (for example, `3600`).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+081/ecephys/sub-EE_ses-EE+081_ecephys.nwb - Field description: Length of the recording in seconds (for example, `3600`).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+086/ecephys/sub-EE_ses-EE+086_ecephys.nwb - Field description: Length of the recording in seconds (for example, `3600`).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+085/ecephys/sub-EE_ses-EE+085_ecephys.nwb - Field description: Length of the recording in seconds (for example, `3600`).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+089/ecephys/sub-EE_ses-EE+089_ecephys.nwb - Field description: Length of the recording in seconds (for example, `3600`).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+083/ecephys/sub-EE_ses-EE+083_ecephys.nwb - Field description: Length of the recording in seconds (for example, `3600`).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+087/ecephys/sub-EE_ses-EE+087_ecephys.nwb - Field description: Length of the recording in seconds (for example, `3600`).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+084/ecephys/sub-EE_ses-EE+084_ecephys.nwb - Field description: Length of the recording in seconds (for example, `3600`).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+080/ecephys/sub-EE_ses-EE+080_ecephys.nwb - Field description: Length of the recording in seconds (for example, `3600`).
+ - rules.sidecars.microephys.microephysSetup
 
 		BodyPart
 		/sub-EE/ses-EE+082/ecephys/sub-EE_ses-EE+082_ecephys.nwb - Field description: Body part of the organ / body region scanned.
-
+ - rules.sidecars.microephys.microephysSample
 		/sub-EE/ses-EE+042/ecephys/sub-EE_ses-EE+042_ecephys.nwb - Field description: Body part of the organ / body region scanned.
-
-
-		9 more files with the same issue
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+088/ecephys/sub-EE_ses-EE+088_ecephys.nwb - Field description: Body part of the organ / body region scanned.
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+081/ecephys/sub-EE_ses-EE+081_ecephys.nwb - Field description: Body part of the organ / body region scanned.
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+086/ecephys/sub-EE_ses-EE+086_ecephys.nwb - Field description: Body part of the organ / body region scanned.
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+085/ecephys/sub-EE_ses-EE+085_ecephys.nwb - Field description: Body part of the organ / body region scanned.
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+089/ecephys/sub-EE_ses-EE+089_ecephys.nwb - Field description: Body part of the organ / body region scanned.
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+083/ecephys/sub-EE_ses-EE+083_ecephys.nwb - Field description: Body part of the organ / body region scanned.
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+087/ecephys/sub-EE_ses-EE+087_ecephys.nwb - Field description: Body part of the organ / body region scanned.
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+084/ecephys/sub-EE_ses-EE+084_ecephys.nwb - Field description: Body part of the organ / body region scanned.
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+080/ecephys/sub-EE_ses-EE+080_ecephys.nwb - Field description: Body part of the organ / body region scanned.
+ - rules.sidecars.microephys.microephysSample
 
 		BodyPartDetails
 		/sub-EE/ses-EE+082/ecephys/sub-EE_ses-EE+082_ecephys.nwb - Field description: Additional details about body part or location (for example: `"corpus callosum"`).
-
+ - rules.sidecars.microephys.microephysSample
 		/sub-EE/ses-EE+042/ecephys/sub-EE_ses-EE+042_ecephys.nwb - Field description: Additional details about body part or location (for example: `"corpus callosum"`).
-
-
-		9 more files with the same issue
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+088/ecephys/sub-EE_ses-EE+088_ecephys.nwb - Field description: Additional details about body part or location (for example: `"corpus callosum"`).
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+081/ecephys/sub-EE_ses-EE+081_ecephys.nwb - Field description: Additional details about body part or location (for example: `"corpus callosum"`).
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+086/ecephys/sub-EE_ses-EE+086_ecephys.nwb - Field description: Additional details about body part or location (for example: `"corpus callosum"`).
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+085/ecephys/sub-EE_ses-EE+085_ecephys.nwb - Field description: Additional details about body part or location (for example: `"corpus callosum"`).
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+089/ecephys/sub-EE_ses-EE+089_ecephys.nwb - Field description: Additional details about body part or location (for example: `"corpus callosum"`).
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+083/ecephys/sub-EE_ses-EE+083_ecephys.nwb - Field description: Additional details about body part or location (for example: `"corpus callosum"`).
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+087/ecephys/sub-EE_ses-EE+087_ecephys.nwb - Field description: Additional details about body part or location (for example: `"corpus callosum"`).
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+084/ecephys/sub-EE_ses-EE+084_ecephys.nwb - Field description: Additional details about body part or location (for example: `"corpus callosum"`).
+ - rules.sidecars.microephys.microephysSample
+		/sub-EE/ses-EE+080/ecephys/sub-EE_ses-EE+080_ecephys.nwb - Field description: Additional details about body part or location (for example: `"corpus callosum"`).
+ - rules.sidecars.microephys.microephysSample
 
 	Please visit https://neurostars.org/search?q=SIDECAR_KEY_RECOMMENDED for existing conversations about this issue.
 
@@ -304,14 +2160,57 @@ of the corresponding [CogPO](http://www.cogpo.org/) term.
 
 Field description: Sampling frequency (in Hz) of all the data in the recording,
 regardless of their type (for example, `2400`).
-
+ - rules.sidecars.microephys.microephysSetup
 		/sub-EE/ses-EE+042/ecephys/sub-EE_ses-EE+042_ecephys.json - must be number
 
 Field description: Sampling frequency (in Hz) of all the data in the recording,
 regardless of their type (for example, `2400`).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+088/ecephys/sub-EE_ses-EE+088_ecephys.json - must be number
 
+Field description: Sampling frequency (in Hz) of all the data in the recording,
+regardless of their type (for example, `2400`).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+081/ecephys/sub-EE_ses-EE+081_ecephys.json - must be number
 
-		9 more files with the same issue
+Field description: Sampling frequency (in Hz) of all the data in the recording,
+regardless of their type (for example, `2400`).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+086/ecephys/sub-EE_ses-EE+086_ecephys.json - must be number
+
+Field description: Sampling frequency (in Hz) of all the data in the recording,
+regardless of their type (for example, `2400`).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+085/ecephys/sub-EE_ses-EE+085_ecephys.json - must be number
+
+Field description: Sampling frequency (in Hz) of all the data in the recording,
+regardless of their type (for example, `2400`).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+089/ecephys/sub-EE_ses-EE+089_ecephys.json - must be number
+
+Field description: Sampling frequency (in Hz) of all the data in the recording,
+regardless of their type (for example, `2400`).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+083/ecephys/sub-EE_ses-EE+083_ecephys.json - must be number
+
+Field description: Sampling frequency (in Hz) of all the data in the recording,
+regardless of their type (for example, `2400`).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+087/ecephys/sub-EE_ses-EE+087_ecephys.json - must be number
+
+Field description: Sampling frequency (in Hz) of all the data in the recording,
+regardless of their type (for example, `2400`).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+084/ecephys/sub-EE_ses-EE+084_ecephys.json - must be number
+
+Field description: Sampling frequency (in Hz) of all the data in the recording,
+regardless of their type (for example, `2400`).
+ - rules.sidecars.microephys.microephysSetup
+		/sub-EE/ses-EE+080/ecephys/sub-EE_ses-EE+080_ecephys.json - must be number
+
+Field description: Sampling frequency (in Hz) of all the data in the recording,
+regardless of their type (for example, `2400`).
+ - rules.sidecars.microephys.microephysSetup
 
 	Please visit https://neurostars.org/search?q=JSON_SCHEMA_VALIDATION_ERROR for existing conversations about this issue.
 
