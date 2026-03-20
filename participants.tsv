@@ -1,4 +1,4 @@
-participant_id	species	sex
-sub-EE	Rattus norvegicus domestica	Male
-sub-FF	Rattus norvegicus domestica	Male
-sub-GG	Rattus norvegicus domestica	Male
+participant_id	original_participant_id	species	sex
+sub-EE	sub-EE	Rattus norvegicus domestica	Male
+sub-FF	sub-FF	Rattus norvegicus domestica	Male
+sub-GG	sub-GG	Rattus norvegicus domestica	Male
