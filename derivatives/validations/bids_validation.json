@@ -1,0 +1,1926 @@
+{
+  "issues": {
+    "issues": [
+      {
+        "code": "UNKNOWN_BIDS_VERSION",
+        "location": "/dataset_description.json",
+        "rule": "rules.checks.dataset.UnknownVersion",
+        "severity": "ignore"
+      },
+      {
+        "code": "README_FILE_MISSING",
+        "location": "/dataset_description.json",
+        "rule": "rules.checks.hints.ReadmeFileMissing",
+        "severity": "ignore"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "SourceDatasets",
+        "location": "/dataset_description.json",
+        "severity": "warning",
+        "rule": "rules.dataset_metadata.dataset_description",
+        "issueMessage": "Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).\nValid keys in each object include `\"URL\"`, `\"DOI\"` (see\n[URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)), and\n`\"Version\"` with\n[string](https://www.w3schools.com/js/js_json_datatypes.asp)\nvalues.\n"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-FF/sub-FF_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-FF.103'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-FF/ses-FF.103/ecephys/sub-FF_ses-FF.103_electrodes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-FF/ses-FF.103/ecephys/sub-FF_ses-FF.103_events.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-FF/ses-FF.103/ecephys/sub-FF_ses-FF.103_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-FF/ses-FF.103/ecephys/sub-FF_ses-FF.103_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-FF/ses-FF.103/ecephys/sub-FF_ses-FF.103_events.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-FF/ses-FF.103/ecephys/sub-FF_ses-FF.103_ecephys.nwb",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-FF/ses-FF.103/ecephys/sub-FF_ses-FF.103_probes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-FF/ses-FF.103/ecephys/sub-FF_ses-FF.103_channels.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-FF/ses-FF.103/ecephys/sub-FF_ses-FF.103_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-FF/ses-FF.103/ecephys/sub-FF_ses-FF.103_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-FF/ses-FF.167/ecephys/sub-FF_ses-FF.167_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-FF/ses-FF.167/ecephys/sub-FF_ses-FF.167_channels.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-FF/ses-FF.167/ecephys/sub-FF_ses-FF.167_probes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-FF/ses-FF.167/ecephys/sub-FF_ses-FF.167_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-FF/ses-FF.167/ecephys/sub-FF_ses-FF.167_electrodes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-FF/ses-FF.167/ecephys/sub-FF_ses-FF.167_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-FF/ses-FF.167/ecephys/sub-FF_ses-FF.167_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-FF/ses-FF.167/ecephys/sub-FF_ses-FF.167_events.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-FF/ses-FF.167/ecephys/sub-FF_ses-FF.167_events.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-FF/ses-FF.167/ecephys/sub-FF_ses-FF.167_ecephys.nwb",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-FF/ses-FF.130/ecephys/sub-FF_ses-FF.130_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-FF/ses-FF.130/ecephys/sub-FF_ses-FF.130_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-FF/ses-FF.130/ecephys/sub-FF_ses-FF.130_channels.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-FF/ses-FF.130/ecephys/sub-FF_ses-FF.130_events.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-FF/ses-FF.130/ecephys/sub-FF_ses-FF.130_ecephys.nwb",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-FF/ses-FF.130/ecephys/sub-FF_ses-FF.130_events.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-FF/ses-FF.130/ecephys/sub-FF_ses-FF.130_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-FF/ses-FF.130/ecephys/sub-FF_ses-FF.130_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-FF/ses-FF.130/ecephys/sub-FF_ses-FF.130_electrodes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-FF/ses-FF.130/ecephys/sub-FF_ses-FF.130_probes.tsv",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-EE/sub-EE_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-EE.042'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.084/ecephys/sub-EE_ses-EE.084_channels.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.084/ecephys/sub-EE_ses-EE.084_ecephys.nwb",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.084/ecephys/sub-EE_ses-EE.084_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.084/ecephys/sub-EE_ses-EE.084_probes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.084/ecephys/sub-EE_ses-EE.084_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.084/ecephys/sub-EE_ses-EE.084_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.084/ecephys/sub-EE_ses-EE.084_electrodes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.084/ecephys/sub-EE_ses-EE.084_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.046/ecephys/sub-EE_ses-EE.046_ecephys.nwb",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.046/ecephys/sub-EE_ses-EE.046_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.046/ecephys/sub-EE_ses-EE.046_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.046/ecephys/sub-EE_ses-EE.046_electrodes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.046/ecephys/sub-EE_ses-EE.046_channels.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.046/ecephys/sub-EE_ses-EE.046_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.046/ecephys/sub-EE_ses-EE.046_probes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.046/ecephys/sub-EE_ses-EE.046_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.082/ecephys/sub-EE_ses-EE.082_ecephys.nwb",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.082/ecephys/sub-EE_ses-EE.082_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.082/ecephys/sub-EE_ses-EE.082_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.082/ecephys/sub-EE_ses-EE.082_electrodes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.082/ecephys/sub-EE_ses-EE.082_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.082/ecephys/sub-EE_ses-EE.082_probes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.082/ecephys/sub-EE_ses-EE.082_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.082/ecephys/sub-EE_ses-EE.082_channels.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.043/ecephys/sub-EE_ses-EE.043_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.043/ecephys/sub-EE_ses-EE.043_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.043/ecephys/sub-EE_ses-EE.043_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.043/ecephys/sub-EE_ses-EE.043_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.043/ecephys/sub-EE_ses-EE.043_channels.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.043/ecephys/sub-EE_ses-EE.043_probes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.043/ecephys/sub-EE_ses-EE.043_electrodes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.043/ecephys/sub-EE_ses-EE.043_ecephys.nwb",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.050/ecephys/sub-EE_ses-EE.050_probes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.050/ecephys/sub-EE_ses-EE.050_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.050/ecephys/sub-EE_ses-EE.050_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.050/ecephys/sub-EE_ses-EE.050_ecephys.nwb",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.050/ecephys/sub-EE_ses-EE.050_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.050/ecephys/sub-EE_ses-EE.050_electrodes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.050/ecephys/sub-EE_ses-EE.050_channels.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.050/ecephys/sub-EE_ses-EE.050_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.042/ecephys/sub-EE_ses-EE.042_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.042/ecephys/sub-EE_ses-EE.042_probes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.042/ecephys/sub-EE_ses-EE.042_ecephys.nwb",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.042/ecephys/sub-EE_ses-EE.042_channels.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.042/ecephys/sub-EE_ses-EE.042_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.042/ecephys/sub-EE_ses-EE.042_electrodes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.042/ecephys/sub-EE_ses-EE.042_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.042/ecephys/sub-EE_ses-EE.042_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.081/ecephys/sub-EE_ses-EE.081_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.081/ecephys/sub-EE_ses-EE.081_probes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.081/ecephys/sub-EE_ses-EE.081_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.081/ecephys/sub-EE_ses-EE.081_channels.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.081/ecephys/sub-EE_ses-EE.081_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.081/ecephys/sub-EE_ses-EE.081_electrodes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.081/ecephys/sub-EE_ses-EE.081_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.081/ecephys/sub-EE_ses-EE.081_ecephys.nwb",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.088/ecephys/sub-EE_ses-EE.088_channels.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.088/ecephys/sub-EE_ses-EE.088_probes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.088/ecephys/sub-EE_ses-EE.088_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.088/ecephys/sub-EE_ses-EE.088_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.088/ecephys/sub-EE_ses-EE.088_events.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.088/ecephys/sub-EE_ses-EE.088_events.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.088/ecephys/sub-EE_ses-EE.088_ecephys.nwb",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.088/ecephys/sub-EE_ses-EE.088_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.088/ecephys/sub-EE_ses-EE.088_electrodes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.088/ecephys/sub-EE_ses-EE.088_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.047/ecephys/sub-EE_ses-EE.047_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.047/ecephys/sub-EE_ses-EE.047_probes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.047/ecephys/sub-EE_ses-EE.047_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.047/ecephys/sub-EE_ses-EE.047_channels.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.047/ecephys/sub-EE_ses-EE.047_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.047/ecephys/sub-EE_ses-EE.047_ecephys.nwb",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.047/ecephys/sub-EE_ses-EE.047_electrodes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.047/ecephys/sub-EE_ses-EE.047_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.045/ecephys/sub-EE_ses-EE.045_electrodes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.045/ecephys/sub-EE_ses-EE.045_ecephys.nwb",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.045/ecephys/sub-EE_ses-EE.045_probes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.045/ecephys/sub-EE_ses-EE.045_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.045/ecephys/sub-EE_ses-EE.045_channels.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.045/ecephys/sub-EE_ses-EE.045_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.045/ecephys/sub-EE_ses-EE.045_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.045/ecephys/sub-EE_ses-EE.045_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.210/ecephys/sub-EE_ses-EE.210_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.210/ecephys/sub-EE_ses-EE.210_probes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.210/ecephys/sub-EE_ses-EE.210_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.210/ecephys/sub-EE_ses-EE.210_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.210/ecephys/sub-EE_ses-EE.210_channels.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.210/ecephys/sub-EE_ses-EE.210_electrodes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.210/ecephys/sub-EE_ses-EE.210_ecephys.nwb",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.210/ecephys/sub-EE_ses-EE.210_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.044/ecephys/sub-EE_ses-EE.044_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.044/ecephys/sub-EE_ses-EE.044_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.044/ecephys/sub-EE_ses-EE.044_ecephys.nwb",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.044/ecephys/sub-EE_ses-EE.044_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.044/ecephys/sub-EE_ses-EE.044_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.044/ecephys/sub-EE_ses-EE.044_probes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.044/ecephys/sub-EE_ses-EE.044_electrodes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.044/ecephys/sub-EE_ses-EE.044_channels.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.080/ecephys/sub-EE_ses-EE.080_channels.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.080/ecephys/sub-EE_ses-EE.080_probes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.080/ecephys/sub-EE_ses-EE.080_ecephys.nwb",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.080/ecephys/sub-EE_ses-EE.080_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.080/ecephys/sub-EE_ses-EE.080_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.080/ecephys/sub-EE_ses-EE.080_electrodes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.080/ecephys/sub-EE_ses-EE.080_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.080/ecephys/sub-EE_ses-EE.080_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.089/ecephys/sub-EE_ses-EE.089_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.089/ecephys/sub-EE_ses-EE.089_probes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.089/ecephys/sub-EE_ses-EE.089_ecephys.nwb",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.089/ecephys/sub-EE_ses-EE.089_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.089/ecephys/sub-EE_ses-EE.089_channels.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.089/ecephys/sub-EE_ses-EE.089_electrodes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.089/ecephys/sub-EE_ses-EE.089_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.089/ecephys/sub-EE_ses-EE.089_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.085/ecephys/sub-EE_ses-EE.085_ecephys.nwb",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.085/ecephys/sub-EE_ses-EE.085_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.085/ecephys/sub-EE_ses-EE.085_electrodes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.085/ecephys/sub-EE_ses-EE.085_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.085/ecephys/sub-EE_ses-EE.085_probes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.085/ecephys/sub-EE_ses-EE.085_channels.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.085/ecephys/sub-EE_ses-EE.085_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.085/ecephys/sub-EE_ses-EE.085_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.048/ecephys/sub-EE_ses-EE.048_probes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.048/ecephys/sub-EE_ses-EE.048_channels.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.048/ecephys/sub-EE_ses-EE.048_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.048/ecephys/sub-EE_ses-EE.048_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.048/ecephys/sub-EE_ses-EE.048_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.048/ecephys/sub-EE_ses-EE.048_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.048/ecephys/sub-EE_ses-EE.048_electrodes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.048/ecephys/sub-EE_ses-EE.048_ecephys.nwb",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.086/ecephys/sub-EE_ses-EE.086_electrodes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.086/ecephys/sub-EE_ses-EE.086_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.086/ecephys/sub-EE_ses-EE.086_ecephys.nwb",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.086/ecephys/sub-EE_ses-EE.086_probes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.086/ecephys/sub-EE_ses-EE.086_channels.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.086/ecephys/sub-EE_ses-EE.086_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.086/ecephys/sub-EE_ses-EE.086_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.086/ecephys/sub-EE_ses-EE.086_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.083/ecephys/sub-EE_ses-EE.083_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.083/ecephys/sub-EE_ses-EE.083_ecephys.nwb",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.083/ecephys/sub-EE_ses-EE.083_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.083/ecephys/sub-EE_ses-EE.083_channels.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.083/ecephys/sub-EE_ses-EE.083_electrodes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.083/ecephys/sub-EE_ses-EE.083_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.083/ecephys/sub-EE_ses-EE.083_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.083/ecephys/sub-EE_ses-EE.083_probes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.087/ecephys/sub-EE_ses-EE.087_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.087/ecephys/sub-EE_ses-EE.087_probes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.087/ecephys/sub-EE_ses-EE.087_electrodes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.087/ecephys/sub-EE_ses-EE.087_ecephys.nwb",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.087/ecephys/sub-EE_ses-EE.087_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.087/ecephys/sub-EE_ses-EE.087_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.087/ecephys/sub-EE_ses-EE.087_channels.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.087/ecephys/sub-EE_ses-EE.087_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.049/ecephys/sub-EE_ses-EE.049_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.049/ecephys/sub-EE_ses-EE.049_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.049/ecephys/sub-EE_ses-EE.049_events.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.049/ecephys/sub-EE_ses-EE.049_ecephys.nwb",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.049/ecephys/sub-EE_ses-EE.049_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.049/ecephys/sub-EE_ses-EE.049_channels.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.049/ecephys/sub-EE_ses-EE.049_probes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.049/ecephys/sub-EE_ses-EE.049_events.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.049/ecephys/sub-EE_ses-EE.049_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.049/ecephys/sub-EE_ses-EE.049_electrodes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.196/ecephys/sub-EE_ses-EE.196_probes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.196/ecephys/sub-EE_ses-EE.196_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.196/ecephys/sub-EE_ses-EE.196_channels.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.196/ecephys/sub-EE_ses-EE.196_electrodes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.196/ecephys/sub-EE_ses-EE.196_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.196/ecephys/sub-EE_ses-EE.196_ecephys.nwb",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.196/ecephys/sub-EE_ses-EE.196_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.196/ecephys/sub-EE_ses-EE.196_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.196/ecephys/sub-EE_ses-EE.196_events.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-EE/ses-EE.196/ecephys/sub-EE_ses-EE.196_events.tsv",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-GG/sub-GG_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-GG.063'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.097/ecephys/sub-GG_ses-GG.097_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.097/ecephys/sub-GG_ses-GG.097_ecephys.nwb",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.097/ecephys/sub-GG_ses-GG.097_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.097/ecephys/sub-GG_ses-GG.097_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.097/ecephys/sub-GG_ses-GG.097_electrodes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.097/ecephys/sub-GG_ses-GG.097_channels.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.097/ecephys/sub-GG_ses-GG.097_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.097/ecephys/sub-GG_ses-GG.097_probes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.097/ecephys/sub-GG_ses-GG.097_events.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.097/ecephys/sub-GG_ses-GG.097_events.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.069/ecephys/sub-GG_ses-GG.069_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.069/ecephys/sub-GG_ses-GG.069_probes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.069/ecephys/sub-GG_ses-GG.069_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.069/ecephys/sub-GG_ses-GG.069_ecephys.nwb",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.069/ecephys/sub-GG_ses-GG.069_channels.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.069/ecephys/sub-GG_ses-GG.069_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.069/ecephys/sub-GG_ses-GG.069_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.069/ecephys/sub-GG_ses-GG.069_electrodes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.069/ecephys/sub-GG_ses-GG.069_events.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.069/ecephys/sub-GG_ses-GG.069_events.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.063/ecephys/sub-GG_ses-GG.063_events.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.063/ecephys/sub-GG_ses-GG.063_channels.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.063/ecephys/sub-GG_ses-GG.063_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.063/ecephys/sub-GG_ses-GG.063_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.063/ecephys/sub-GG_ses-GG.063_ecephys.nwb",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.063/ecephys/sub-GG_ses-GG.063_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.063/ecephys/sub-GG_ses-GG.063_probes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.063/ecephys/sub-GG_ses-GG.063_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.063/ecephys/sub-GG_ses-GG.063_events.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.063/ecephys/sub-GG_ses-GG.063_electrodes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.149/ecephys/sub-GG_ses-GG.149_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.149/ecephys/sub-GG_ses-GG.149_electrodes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.149/ecephys/sub-GG_ses-GG.149_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.149/ecephys/sub-GG_ses-GG.149_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.149/ecephys/sub-GG_ses-GG.149_events.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.149/ecephys/sub-GG_ses-GG.149_channels.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.149/ecephys/sub-GG_ses-GG.149_probes.tsv",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.149/ecephys/sub-GG_ses-GG.149_ecephys.nwb",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.149/ecephys/sub-GG_ses-GG.149_events.json",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-GG/ses-GG.149/ecephys/sub-GG_ses-GG.149_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-FF/ses-FF.103/ecephys/sub-FF_ses-FF.103_events.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-FF/ses-FF.103/ecephys/sub-FF_ses-FF.103_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-FF/ses-FF.103/ecephys/sub-FF_ses-FF.103_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-FF/ses-FF.103/ecephys/sub-FF_ses-FF.103_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-FF/ses-FF.103/ecephys/sub-FF_ses-FF.103_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-FF/ses-FF.167/ecephys/sub-FF_ses-FF.167_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-FF/ses-FF.167/ecephys/sub-FF_ses-FF.167_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-FF/ses-FF.167/ecephys/sub-FF_ses-FF.167_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-FF/ses-FF.167/ecephys/sub-FF_ses-FF.167_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-FF/ses-FF.167/ecephys/sub-FF_ses-FF.167_events.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-FF/ses-FF.130/ecephys/sub-FF_ses-FF.130_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-FF/ses-FF.130/ecephys/sub-FF_ses-FF.130_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-FF/ses-FF.130/ecephys/sub-FF_ses-FF.130_events.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-FF/ses-FF.130/ecephys/sub-FF_ses-FF.130_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-FF/ses-FF.130/ecephys/sub-FF_ses-FF.130_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.084/ecephys/sub-EE_ses-EE.084_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.084/ecephys/sub-EE_ses-EE.084_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.084/ecephys/sub-EE_ses-EE.084_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.084/ecephys/sub-EE_ses-EE.084_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.046/ecephys/sub-EE_ses-EE.046_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.046/ecephys/sub-EE_ses-EE.046_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.046/ecephys/sub-EE_ses-EE.046_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.046/ecephys/sub-EE_ses-EE.046_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.082/ecephys/sub-EE_ses-EE.082_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.082/ecephys/sub-EE_ses-EE.082_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.082/ecephys/sub-EE_ses-EE.082_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.082/ecephys/sub-EE_ses-EE.082_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.043/ecephys/sub-EE_ses-EE.043_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.043/ecephys/sub-EE_ses-EE.043_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.043/ecephys/sub-EE_ses-EE.043_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.043/ecephys/sub-EE_ses-EE.043_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.050/ecephys/sub-EE_ses-EE.050_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.050/ecephys/sub-EE_ses-EE.050_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.050/ecephys/sub-EE_ses-EE.050_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.050/ecephys/sub-EE_ses-EE.050_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.042/ecephys/sub-EE_ses-EE.042_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.042/ecephys/sub-EE_ses-EE.042_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.042/ecephys/sub-EE_ses-EE.042_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.042/ecephys/sub-EE_ses-EE.042_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.081/ecephys/sub-EE_ses-EE.081_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.081/ecephys/sub-EE_ses-EE.081_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.081/ecephys/sub-EE_ses-EE.081_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.081/ecephys/sub-EE_ses-EE.081_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.088/ecephys/sub-EE_ses-EE.088_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.088/ecephys/sub-EE_ses-EE.088_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.088/ecephys/sub-EE_ses-EE.088_events.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.088/ecephys/sub-EE_ses-EE.088_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.088/ecephys/sub-EE_ses-EE.088_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.047/ecephys/sub-EE_ses-EE.047_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.047/ecephys/sub-EE_ses-EE.047_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.047/ecephys/sub-EE_ses-EE.047_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.047/ecephys/sub-EE_ses-EE.047_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.045/ecephys/sub-EE_ses-EE.045_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.045/ecephys/sub-EE_ses-EE.045_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.045/ecephys/sub-EE_ses-EE.045_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.045/ecephys/sub-EE_ses-EE.045_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.210/ecephys/sub-EE_ses-EE.210_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.210/ecephys/sub-EE_ses-EE.210_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.210/ecephys/sub-EE_ses-EE.210_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.210/ecephys/sub-EE_ses-EE.210_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.044/ecephys/sub-EE_ses-EE.044_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.044/ecephys/sub-EE_ses-EE.044_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.044/ecephys/sub-EE_ses-EE.044_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.044/ecephys/sub-EE_ses-EE.044_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.080/ecephys/sub-EE_ses-EE.080_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.080/ecephys/sub-EE_ses-EE.080_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.080/ecephys/sub-EE_ses-EE.080_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.080/ecephys/sub-EE_ses-EE.080_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.089/ecephys/sub-EE_ses-EE.089_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.089/ecephys/sub-EE_ses-EE.089_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.089/ecephys/sub-EE_ses-EE.089_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.089/ecephys/sub-EE_ses-EE.089_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.085/ecephys/sub-EE_ses-EE.085_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.085/ecephys/sub-EE_ses-EE.085_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.085/ecephys/sub-EE_ses-EE.085_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.085/ecephys/sub-EE_ses-EE.085_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.048/ecephys/sub-EE_ses-EE.048_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.048/ecephys/sub-EE_ses-EE.048_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.048/ecephys/sub-EE_ses-EE.048_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.048/ecephys/sub-EE_ses-EE.048_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.086/ecephys/sub-EE_ses-EE.086_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.086/ecephys/sub-EE_ses-EE.086_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.086/ecephys/sub-EE_ses-EE.086_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.086/ecephys/sub-EE_ses-EE.086_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.083/ecephys/sub-EE_ses-EE.083_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.083/ecephys/sub-EE_ses-EE.083_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.083/ecephys/sub-EE_ses-EE.083_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.083/ecephys/sub-EE_ses-EE.083_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.087/ecephys/sub-EE_ses-EE.087_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.087/ecephys/sub-EE_ses-EE.087_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.087/ecephys/sub-EE_ses-EE.087_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.087/ecephys/sub-EE_ses-EE.087_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.049/ecephys/sub-EE_ses-EE.049_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.049/ecephys/sub-EE_ses-EE.049_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.049/ecephys/sub-EE_ses-EE.049_events.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.049/ecephys/sub-EE_ses-EE.049_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.049/ecephys/sub-EE_ses-EE.049_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.196/ecephys/sub-EE_ses-EE.196_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.196/ecephys/sub-EE_ses-EE.196_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.196/ecephys/sub-EE_ses-EE.196_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.196/ecephys/sub-EE_ses-EE.196_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-EE/ses-EE.196/ecephys/sub-EE_ses-EE.196_events.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-GG/ses-GG.097/ecephys/sub-GG_ses-GG.097_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-GG/ses-GG.097/ecephys/sub-GG_ses-GG.097_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-GG/ses-GG.097/ecephys/sub-GG_ses-GG.097_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-GG/ses-GG.097/ecephys/sub-GG_ses-GG.097_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-GG/ses-GG.097/ecephys/sub-GG_ses-GG.097_events.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-GG/ses-GG.069/ecephys/sub-GG_ses-GG.069_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-GG/ses-GG.069/ecephys/sub-GG_ses-GG.069_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-GG/ses-GG.069/ecephys/sub-GG_ses-GG.069_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-GG/ses-GG.069/ecephys/sub-GG_ses-GG.069_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-GG/ses-GG.069/ecephys/sub-GG_ses-GG.069_events.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-GG/ses-GG.063/ecephys/sub-GG_ses-GG.063_events.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-GG/ses-GG.063/ecephys/sub-GG_ses-GG.063_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-GG/ses-GG.063/ecephys/sub-GG_ses-GG.063_ecephys.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-GG/ses-GG.063/ecephys/sub-GG_ses-GG.063_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-GG/ses-GG.063/ecephys/sub-GG_ses-GG.063_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-GG/ses-GG.149/ecephys/sub-GG_ses-GG.149_probes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-GG/ses-GG.149/ecephys/sub-GG_ses-GG.149_electrodes.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-GG/ses-GG.149/ecephys/sub-GG_ses-GG.149_channels.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-GG/ses-GG.149/ecephys/sub-GG_ses-GG.149_events.json",
+        "severity": "error"
+      },
+      {
+        "code": "SIDECAR_WITHOUT_DATAFILE",
+        "location": "/sub-GG/ses-GG.149/ecephys/sub-GG_ses-GG.149_ecephys.json",
+        "severity": "error"
+      }
+    ],
+    "codeMessages": {
+      "UNKNOWN_BIDS_VERSION": "The BIDSVersion field of 'dataset_description.json' does not match a known release.\nThe BIDS Schema used for validation may be out of date.\n",
+      "README_FILE_MISSING": "The recommended file /README is missing.\nSee Section 03 (Modality agnostic files) of the BIDS specification.\n",
+      "JSON_KEY_RECOMMENDED": "A JSON file is missing a key listed as recommended.",
+      "TSV_VALUE_INCORRECT_TYPE": "A value in a column did not match the acceptable type for that column headers specified format.",
+      "NOT_INCLUDED": "Files with such naming scheme are not part of BIDS specification. This error is most commonly caused by typos in file names that make them not BIDS compatible. Please consult the specification and make sure your files are named correctly. If this is not a file naming issue (for example when including files not yet covered by the BIDS specification) you should include a \".bidsignore\" file in your dataset (see https://github.com/bids-standard/bids-validator#bidsignore for details). Please note that derived (processed) data should be placed in /derivatives folder and source data (such as DICOMS or behavioural logs in proprietary formats) should be placed in the /sourcedata folder.",
+      "SIDECAR_WITHOUT_DATAFILE": "A json sidecar file was found without a corresponding data file"
+    }
+  },
+  "summary": {
+    "sessions": [],
+    "subjects": [
+      "FF",
+      "EE",
+      "GG"
+    ],
+    "subjectMetadata": [
+      {
+        "participantId": "EE",
+        "sex": "Male"
+      },
+      {
+        "participantId": "FF",
+        "sex": "Male"
+      },
+      {
+        "participantId": "GG",
+        "sex": "Male"
+      }
+    ],
+    "tasks": [],
+    "modalities": [
+      "microephys"
+    ],
+    "secondaryModalities": [],
+    "totalFiles": 253,
+    "size": 392065,
+    "dataProcessed": false,
+    "pet": {},
+    "dataTypes": [
+      "ecephys"
+    ],
+    "schemaVersion": "1.3.0-dev"
+  }
+}
